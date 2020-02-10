@@ -12,7 +12,7 @@
 ?>
 
 	</div><!-- #content -->
-
+<!-- footer section start-->
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'a-theme-just-for-teas' ) ); ?>">
