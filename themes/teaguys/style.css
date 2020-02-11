@@ -9,6 +9,15 @@ License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: tea_guys
 */
+@import url(‘https://fonts.googleapis.com/css?family=Nunito&display=swap’);
+
+*{
+	font-family: 'Nunito', sans-serif;
+}
+
+/* .grid-container{
+    font-family: 'Nunito', sans-serif;
+} */
 
 #masthead{ 
     background-color: #A11D1D;
