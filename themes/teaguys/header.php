@@ -52,33 +52,34 @@
 			<div class="top-bar" id="example-menu">
 				<div class="top-bar-left">
 					<ul class="dropdown menu" data-dropdown-menu>
-					<li class="menu-text">Site Title</li>
-					<li>
-						<a href="#">One</a>
-						<ul class="menu vertical">
-						<li><a href="#">One</a></li>
-						<li><a href="#">Two</a></li>
-						<li><a href="#">Three</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Two</a></li>
-					<li><a href="#">Three</a></li>
+						<li class="menu-text">Site Title</li>
+						<li>
+							<a href="#">
+								<?php
+								wp_nav_menu( array(
+									'theme_location' => 'menu',
+									'menu_id'        => 'primary-menu',
+								) );
+								?>
+							</a>
+						</li>
 					</ul>
 				</div>
 				<div class="top-bar-right">
 					<ul class="menu">
-					<li><input type="search" placeholder="Search"></li>
-					<li><button type="button" class="button">Search</button></li>
+						<li><input type="search" placeholder="Search" id="searchBar"></li>
 					</ul>
 				</div>
 			</div>
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'tea_guys' ); ?></button>
+			<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'tea_guys' ); ?></button> -->
+			
 			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu',
-				'menu_id'        => 'primary-menu',
-			) );
+			// wp_nav_menu( array(
+			// 	'theme_location' => 'menu',
+			// 	'menu_id'        => 'primary-menu',
+			// ) );
 			?>
+			
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

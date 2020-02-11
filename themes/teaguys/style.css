@@ -54,12 +54,40 @@ li{
 }
 
 /* ------------------------ header ------------------------*/
-.menu{
-    flex-direction: column;
-}
 
 .menu a{
+    background-color: #A11D1D;
     color: #D0F1C0;
+    text-transform: uppercase;
+}
+
+.menu a:hover{
+    color: #FFF;
+}
+
+ul.dropdown.menu{
+    background-color: #A11D1D;
+}
+
+.top-bar.ul.a{
+    background-color: none;
+    
+}
+
+.menu>li{
+    background-color: #A11D1D;
+}
+
+#searchBar{
+    border: none;
+    border-radius: 5px;
+}
+
+#example-menu{
+    background-color: #A11D1D;
+    -webkit-box-shadow: 0px 0px 8px 0px #D0F1C0; 
+    box-shadow: 0px 0px 8px 0px #D0F1C0;
+    
 }
 
 
