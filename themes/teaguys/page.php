@@ -23,7 +23,7 @@ get_header();
 			the_post();
 
 			?>
-
+			<!-- grid-container support for all pages -->
 			<div class="grid-container">
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>
 			</div>
