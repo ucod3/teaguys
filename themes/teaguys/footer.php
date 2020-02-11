@@ -15,6 +15,12 @@
 <!-- footer section start-->
 	<footer id="footerStyle" class="site-footer">
 		<div class="site-info">
+			<?php
+				wp_nav_menu( array(
+					'theme_location' => 'menu',
+					'menu_id'        => 'primary-menu',
+				) );
+			?>
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'tea_guys' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
