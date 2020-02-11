@@ -120,6 +120,11 @@ add_action( 'widgets_init', 'a_theme_just_for_teas_widgets_init' );
  * Enqueue scripts and styles.
  */
 function a_theme_just_for_teas_scripts() {
+
+	/* Add Foundation CSS */
+	wp_enqueue_style( 'foundation-normalize', get_stylesheet_directory_uri() . '/foundation/css/normalize.css' );
+	wp_enqueue_style( 'foundation', get_stylesheet_directory_uri() . '/foundation/css/foundation.css' );
+
 	wp_enqueue_style( 'a-theme-just-for-teas-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'a-theme-just-for-teas-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
@@ -159,3 +164,4 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+?>
