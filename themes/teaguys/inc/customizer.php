@@ -50,6 +50,6 @@ function a_theme_just_for_teas_customize_partial_blogdescription() {
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
 function a_theme_just_for_teas_customize_preview_js() {
-	wp_enqueue_script( 'a-theme-just-for-teas-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
+	wp_enqueue_script( 'tea-guys-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
 add_action( 'customize_preview_init', 'a_theme_just_for_teas_customize_preview_js' );

@@ -20,9 +20,9 @@ if ( ! function_exists( 'a_theme_just_for_teas_setup' ) ) :
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
 		 * If you're building a theme based on Tea Guys, use a find and replace
-		 * to change 'a-theme-just-for-teas' to the name of your theme in all the template files.
+		 * to change 'tea-guys' to the name of your theme in all the template files.
 		 */
-		load_theme_textdomain( 'a-theme-just-for-teas', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'tea-guys', get_template_directory() . '/languages' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
@@ -44,7 +44,7 @@ if ( ! function_exists( 'a_theme_just_for_teas_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'a-theme-just-for-teas' ),
+			'menu-1' => esc_html__( 'Primary', 'tea-guys' ),
 		) );
 
 		/*
@@ -105,9 +105,9 @@ add_action( 'after_setup_theme', 'a_theme_just_for_teas_content_width', 0 );
  */
 function a_theme_just_for_teas_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'a-theme-just-for-teas' ),
+		'name'          => esc_html__( 'Sidebar', 'tea-guys' ),
 		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', 'a-theme-just-for-teas' ),
+		'description'   => esc_html__( 'Add widgets here.', 'tea-guys' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
@@ -120,11 +120,11 @@ add_action( 'widgets_init', 'a_theme_just_for_teas_widgets_init' );
  * Enqueue scripts and styles.
  */
 function a_theme_just_for_teas_scripts() {
-	wp_enqueue_style( 'a-theme-just-for-teas-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'tea-guys-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'a-theme-just-for-teas-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'tea-guys-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'a-theme-just-for-teas-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'tea-guys-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

@@ -28,7 +28,7 @@ function a_theme_just_for_teas_jetpack_setup() {
 	// Add theme support for Content Options.
 	add_theme_support( 'jetpack-content-options', array(
 		'post-details'    => array(
-			'stylesheet' => 'a-theme-just-for-teas-style',
+			'stylesheet' => 'tea-guys-style',
 			'date'       => '.posted-on',
 			'categories' => '.cat-links',
 			'tags'       => '.tags-links',
