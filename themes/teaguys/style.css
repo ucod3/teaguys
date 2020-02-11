@@ -89,9 +89,14 @@ ul.dropdown.menu{
 
 #example-menu{
     background-color: #A11D1D;
+    height: 100px;
     -webkit-box-shadow: 0px 0px 8px 0px #D0F1C0; 
-    box-shadow: 0px 0px 8px 0px #D0F1C0;
+    box-shadow: 0px 0px 8px 0px #333;
     
+}
+
+#mainMenu{
+    justify-content: right;
 }
 
 /* ------------------------ footer ------------------------*/
@@ -101,7 +106,7 @@ ul.dropdown.menu{
     justify-content: center;
     background-color: #A11D1D;
     color: #D0F1C0;
-    height: 200px;
+    height: 150px;
     text-align: center;
 }
 

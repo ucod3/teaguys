@@ -43,25 +43,28 @@
 				<p class="site-description"><?php echo $tea_guys_description; /* WPCS: xss ok. */ ?></p>
 				<!-- navigation bar -->
 				<div class="top-bar" id="example-menu">
-				<div class="top-bar-left">
-					<ul class="dropdown menu" data-dropdown-menu>
-						<li class="menu-text">Site Title</li>
-						<li>
-							<?php
-							wp_nav_menu( array(
-								'theme_location' => 'menu',
-								'menu_id'        => 'primary-menu',
-							) );
-							?>
-						</li>
-					</ul>
+
+					<div class="top-bar-left">
+						<ul class="dropdown menu" data-dropdown-menu>
+							<li class="menu-text">Tea Guys</li>
+						</ul>
+					</div>
+
+					<div class="top-bar-right">
+						<ul class="menu">
+							<li>
+								<?php
+								wp_nav_menu( array(
+									'theme_location' => 'menu',
+									'menu_id'        => 'primary-menu',
+								) );
+								?>
+							</li>
+							<li><input type="search" placeholder="Search" id="searchBar"></li>
+						</ul>
+					</div>
+
 				</div>
-				<div class="top-bar-right">
-					<ul class="menu">
-						<li><input type="search" placeholder="Search" id="searchBar"></li>
-					</ul>
-				</div>
-			</div>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
