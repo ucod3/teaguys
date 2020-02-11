@@ -45,6 +45,10 @@ p{
     text-align: justify;
 }
 
+li{
+    list-style-type: none;
+}
+
 /* ------------------------ blogs page ------------------------*/
 
 /* figure caption settings */
