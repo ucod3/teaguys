@@ -7,7 +7,7 @@
  * @package Tea_Guys
  */
 
-if ( ! function_exists( 'a_theme_just_for_teas_setup' ) ) :
+if ( ! function_exists( 'tea_guys_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
@@ -15,14 +15,14 @@ if ( ! function_exists( 'a_theme_just_for_teas_setup' ) ) :
 	 * runs before the init hook. The init hook is too late for some features, such
 	 * as indicating support for post thumbnails.
 	 */
-	function a_theme_just_for_teas_setup() {
+	function tea_guys_setup() {
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
 		 * If you're building a theme based on Tea Guys, use a find and replace
-		 * to change 'tea-guys' to the name of your theme in all the template files.
+		 * to change 'tea_guys' to the name of your theme in all the template files.
 		 */
-		load_theme_textdomain( 'tea-guys', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'tea_guys', get_template_directory() . '/languages' );
 
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
@@ -44,7 +44,7 @@ if ( ! function_exists( 'a_theme_just_for_teas_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'tea-guys' ),
+			'menu-1' => esc_html__( 'Primary', 'tea_guys' ),
 		) );
 
 		/*
@@ -60,7 +60,7 @@ if ( ! function_exists( 'a_theme_just_for_teas_setup' ) ) :
 		) );
 
 		// Set up the WordPress core custom background feature.
-		add_theme_support( 'custom-background', apply_filters( 'a_theme_just_for_teas_custom_background_args', array(
+		add_theme_support( 'custom-background', apply_filters( 'tea_guys_custom_background_args', array(
 			'default-color' => 'ffffff',
 			'default-image' => '',
 		) ) );
@@ -81,7 +81,7 @@ if ( ! function_exists( 'a_theme_just_for_teas_setup' ) ) :
 		) );
 	}
 endif;
-add_action( 'after_setup_theme', 'a_theme_just_for_teas_setup' );
+add_action( 'after_setup_theme', 'tea_guys_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -90,43 +90,45 @@ add_action( 'after_setup_theme', 'a_theme_just_for_teas_setup' );
  *
  * @global int $content_width
  */
-function a_theme_just_for_teas_content_width() {
+function tea_guys_content_width() {
 	// This variable is intended to be overruled from themes.
 	// Open WPCS issue: {@link https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/issues/1043}.
 	// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
-	$GLOBALS['content_width'] = apply_filters( 'a_theme_just_for_teas_content_width', 640 );
+	$GLOBALS['content_width'] = apply_filters( 'tea_guys_content_width', 640 );
 }
-add_action( 'after_setup_theme', 'a_theme_just_for_teas_content_width', 0 );
+add_action( 'after_setup_theme', 'tea_guys_content_width', 0 );
 
 /**
  * Register widget area.
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function a_theme_just_for_teas_widgets_init() {
+function tea_guys_widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'tea-guys' ),
+		'name'          => esc_html__( 'Sidebar', 'tea_guys' ),
 		'id'            => 'sidebar-1',
-		'description'   => esc_html__( 'Add widgets here.', 'tea-guys' ),
+		'description'   => esc_html__( 'Add widgets here.', 'tea_guys' ),
 		'before_widget' => '<section id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
 }
-add_action( 'widgets_init', 'a_theme_just_for_teas_widgets_init' );
+add_action( 'widgets_init', 'tea_guys_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
  */
-function a_theme_just_for_teas_scripts() {
-	wp_enqueue_style( 'tea-guys-style', get_stylesheet_uri() );
+function tea_guys_scripts() {
+	wp_enqueue_style( 'tea_guys-style', get_stylesheet_uri() );
+
+	wp_enqueue_style( 'tea-guys-foundation', get_template_directory_uri() . '/assets/css/vendor/foundation.min.css', null,'6.5.1' );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'a_theme_just_for_teas_scripts' );
+add_action( 'wp_enqueue_scripts', 'tea_guys_scripts' );
 
 /**
  * Implement the Custom Header feature.

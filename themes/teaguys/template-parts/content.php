@@ -22,21 +22,21 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				a_theme_just_for_teas_posted_on();
-				a_theme_just_for_teas_posted_by();
+				tea_guys_posted_on();
+				tea_guys_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php a_theme_just_for_teas_post_thumbnail(); ?>
+	<?php tea_guys_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
 		the_content( sprintf(
 			wp_kses(
 				/* translators: %s: Name of current post. Only visible to screen readers */
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'tea-guys' ),
+				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'tea_guys' ),
 				array(
 					'span' => array(
 						'class' => array(),
@@ -47,13 +47,13 @@
 		) );
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'tea-guys' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'tea_guys' ),
 			'after'  => '</div>',
 		) );
 		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php a_theme_just_for_teas_entry_footer(); ?>
+		<?php tea_guys_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

@@ -16,20 +16,20 @@
 		<?php if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php
-			a_theme_just_for_teas_posted_on();
-			a_theme_just_for_teas_posted_by();
+			tea_guys_posted_on();
+			tea_guys_posted_by();
 			?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php a_theme_just_for_teas_post_thumbnail(); ?>
+	<?php tea_guys_post_thumbnail(); ?>
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 
 	<footer class="entry-footer">
-		<?php a_theme_just_for_teas_entry_footer(); ?>
+		<?php tea_guys_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
