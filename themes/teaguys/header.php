@@ -47,14 +47,12 @@
 					<ul class="dropdown menu" data-dropdown-menu>
 						<li class="menu-text">Site Title</li>
 						<li>
-							<a href="#">
-								<?php
-								wp_nav_menu( array(
-									'theme_location' => 'menu',
-									'menu_id'        => 'primary-menu',
-								) );
-								?>
-							</a>
+							<?php
+							wp_nav_menu( array(
+								'theme_location' => 'menu',
+								'menu_id'        => 'primary-menu',
+							) );
+							?>
 						</li>
 					</ul>
 				</div>

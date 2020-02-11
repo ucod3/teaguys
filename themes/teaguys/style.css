@@ -23,13 +23,7 @@ Text Domain: tea_guys
     background-color: #A11D1D;
 }
 
-#footerStyle{
-    background-color: #A11D1D;
-    height: 150px;
-    text-align: center;
-}
-
-/* global changes */
+/* ------------------------ global changes ------------------------ */
 
 /* for headers */
 .entry-title{
@@ -52,6 +46,15 @@ p{
 
 li{
     list-style-type: none;
+}
+
+.center{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.lightGreen{
+    color: #D0F1C0;
 }
 
 /* ------------------------ header ------------------------*/
@@ -92,9 +95,24 @@ ul.dropdown.menu{
 }
 
 /* ------------------------ footer ------------------------*/
+#footerStyle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A11D1D;
+    color: #D0F1C0;
+    height: 200px;
+    text-align: center;
+}
+
+footer > div > a{
+}
+
 #primary-menu>ul{
     display: flex;
     margin: auto auto;
+    font-weight: bolder;
+    letter-spacing: 2px;
 }
 
 /* ------------------------ blogs page ------------------------*/
