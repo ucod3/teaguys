@@ -13,7 +13,7 @@
 
 	</div><!-- #content -->
 <!-- footer section start-->
-	<footer id="colophon" class="site-footer">
+	<footer id="footerStyle" class="site-footer">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'tea_guys' ) ); ?>">
 				<?php

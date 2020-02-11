@@ -13,3 +13,8 @@ Text Domain: tea_guys
 #masthead{ 
     background-color: #A11D1D;
 }
+
+#footerStyle{
+    background-color: #A11D1D;
+    height: 200px;
+}
