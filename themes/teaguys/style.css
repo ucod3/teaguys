@@ -47,18 +47,32 @@ p{
 
 /* ------------------------ blogs page ------------------------*/
 
+/* figure caption settings */
 .wp-block-image figcaption{
     text-align: center;
 }
 
 /* ------------------------ about page ------------------------*/
 
+/* media and text block settings */
 .wp-block-media-text.has-media-on-the-right .wp-block-media-text__media{
     margin: auto auto;
 }
 
+/* image settings */
 .wp-block-media-text>figure>img{
     max-width: 25rem;
     margin-top: 0;
     padding-top: 0;
+}
+
+/* ------------------------ contact page ------------------------*/
+
+/* icons */
+.wp-block-media-text>figure>img{
+
+}
+
+.wp-block-media-text{
+    margin: auto auto;
 }
