@@ -40,8 +40,24 @@ Text Domain: tea_guys
     margin: 2rem auto;
 }
 
-/* blogs page */
+p{
+    text-align: justify;
+}
+
+/* ------------------------ blogs page ------------------------*/
 
 .wp-block-image figcaption{
     text-align: center;
+}
+
+/* ------------------------ about page ------------------------*/
+
+.wp-block-media-text.has-media-on-the-right .wp-block-media-text__media{
+    margin: auto auto;
+}
+
+.wp-block-media-text>figure>img{
+    max-width: 25rem;
+    margin-top: 0;
+    padding-top: 0;
 }
