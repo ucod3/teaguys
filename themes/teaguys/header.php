@@ -47,6 +47,7 @@
 				<div class="top-bar" id="example-menu">
 
 					<div class="top-bar-left">
+						<img src="logo.png">
 						<!-- <ul class="dropdown menu" data-dropdown-menu>
 							<li class="menu-text">Tea Guys</li>
 						</ul> -->
