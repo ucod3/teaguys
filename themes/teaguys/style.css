@@ -54,6 +54,10 @@ li{
 }
 
 /* ------------------------ header ------------------------*/
+.menu{
+    flex-direction: column;
+}
+
 .menu a{
     color: #D0F1C0;
 }
