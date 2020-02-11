@@ -135,6 +135,15 @@ function tea_guys_scripts() {
 add_action( 'wp_enqueue_scripts', 'tea_guys_scripts' );
 
 /**
+ * Enqueue google fonts
+ */
+
+function wpb_add_google_fonts() {
+	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Nunito&display=swap', false ); 
+}
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
