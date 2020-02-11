@@ -41,15 +41,8 @@
 			if ( $tea_guys_description || is_customize_preview() ) :
 				?>
 				<p class="site-description"><?php echo $tea_guys_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-			<!-- <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
-				<button class="menu-icon" type="button" data-toggle="example-menu"></button>
-				<div class="title-bar-title">Menu</div>
-			</div> -->
-
-			<div class="top-bar" id="example-menu">
+				<!-- navigation bar -->
+				<div class="top-bar" id="example-menu">
 				<div class="top-bar-left">
 					<ul class="dropdown menu" data-dropdown-menu>
 						<li class="menu-text">Site Title</li>
@@ -71,6 +64,13 @@
 					</ul>
 				</div>
 			</div>
+			<?php endif; ?>
+		</div><!-- .site-branding -->
+
+			<!-- <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+				<button class="menu-icon" type="button" data-toggle="example-menu"></button>
+				<div class="title-bar-title">Menu</div>
+			</div> -->
 			<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'tea_guys' ); ?></button> -->
 			
 			<?php
