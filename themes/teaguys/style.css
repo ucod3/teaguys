@@ -59,6 +59,13 @@ li{
 
 /* ------------------------ header ------------------------*/
 
+#logoImg{
+    background-image: url(logo.png);
+    height: 100px;
+    width: 300px;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
 .menu a{
     background-color: #A11D1D;
     color: #D0F1C0;
