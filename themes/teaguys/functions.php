@@ -122,8 +122,10 @@ add_action( 'widgets_init', 'a_theme_just_for_teas_widgets_init' );
 function a_theme_just_for_teas_scripts() {
 
 	/* Add Foundation CSS */
-	wp_enqueue_style( 'foundation-normalize', get_stylesheet_directory_uri() . '/foundation/css/normalize.css' );
-	wp_enqueue_style( 'foundation', get_stylesheet_directory_uri() . '/foundation/css/foundation.css' );
+	wp_enqueue_style( 'foundation', get_stylesheet_directory_uri() . '/css/app.css' );
+
+	/* Add Foundation JS */
+	wp_enqueue_script( 'foundation-js', get_template_directory_uri() . '/js/app.js', array( 'jquery' ), '2.1.0', true );
 
 	wp_enqueue_style( 'a-theme-just-for-teas-style', get_stylesheet_uri() );
 
