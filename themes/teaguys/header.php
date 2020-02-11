@@ -10,6 +10,8 @@
  */
 
 ?>
+
+<!-- removed the extra tea guys and site title -->
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
