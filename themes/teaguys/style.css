@@ -27,3 +27,9 @@ Text Domain: tea_guys
     background-color: #A11D1D;
     height: 200px;
 }
+
+/* blogs page */
+
+.wp-block-image figcaption{
+    text-align: center;
+}
