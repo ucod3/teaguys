@@ -28,6 +28,18 @@ Text Domain: tea_guys
     height: 200px;
 }
 
+/* global changes */
+
+/* for headers */
+.entry-title{
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A11D1D;
+    text-align: center;
+    margin: 2rem auto;
+}
+
 /* blogs page */
 
 .wp-block-image figcaption{
