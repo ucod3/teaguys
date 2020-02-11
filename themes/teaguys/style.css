@@ -9,3 +9,157 @@ License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: tea_guys
 */
+@import url(‘https://fonts.googleapis.com/css?family=Nunito&display=swap’);
+
+*{
+	font-family: 'Nunito', sans-serif;
+}
+
+/* .grid-container{
+    font-family: 'Nunito', sans-serif;
+} */
+
+#masthead{ 
+    background-color: #A11D1D;
+}
+
+/* ------------------------ global changes ------------------------ */
+
+/* for headers */
+.entry-title{
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A11D1D;
+    text-align: center;
+    margin: 2rem auto;
+    font-size: 25pt;
+}
+
+a{
+    transition: 0.3s ease-in-out;
+}
+
+p{
+    text-align: justify;
+}
+
+li{
+    list-style-type: none;
+}
+
+.center{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.lightGreen{
+    color: #D0F1C0;
+}
+
+body{
+    text-align: center;
+}
+/* ------------------------ header ------------------------*/
+
+#logoImg{
+    background-image: url(logo.png);
+    height: 80px;
+    width: 300px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.menu a{
+    background-color: #A11D1D;
+    color: #D0F1C0;
+    text-transform: uppercase;
+}
+
+.menu a:hover{
+    color: #FFF;
+}
+
+ul.dropdown.menu{
+    background-color: #A11D1D;
+}
+
+.top-bar.ul.a{
+    background-color: none;
+    
+}
+
+.menu>li{
+    background-color: #A11D1D;
+    margin-right: 40px;
+}
+
+#searchBar{
+    border: none;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+#example-menu{
+    background-color: #A11D1D;
+    height: 100px;
+    -webkit-box-shadow: 0px 0px 8px 0px #D0F1C0; 
+    box-shadow: 0px 0px 8px 0px #333;
+    
+}
+
+#mainMenu{
+    justify-content: right;
+}
+
+/* ------------------------ footer ------------------------*/
+#footerStyle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A11D1D;
+    color: #D0F1C0;
+    height: 150px;
+    text-align: center;
+}
+
+footer > div > a{
+}
+
+#primary-menu>ul{
+    display: flex;
+    margin: auto auto;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+/* ------------------------ blogs page ------------------------*/
+
+/* figure caption settings */
+.wp-block-image figcaption{
+    text-align: center;
+}
+
+/* ------------------------ about page ------------------------*/
+
+/* media and text block settings */
+.wp-block-media-text.has-media-on-the-right .wp-block-media-text__media{
+    margin: auto auto;
+}
+
+/* image settings */
+.wp-block-media-text>figure>img{
+    max-width: 25rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* ------------------------ contact page ------------------------*/
+
+/* icons */
+.wp-block-media-text>figure>img{
+
+}
+
+.wp-block-media-text{
+    margin: auto auto;
+}

@@ -13,19 +13,26 @@
 
 	</div><!-- #content -->
 <!-- footer section start-->
-	<footer id="colophon" class="site-footer">
+	<footer id="footerStyle" class="site-footer">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'tea_guys' ) ); ?>">
+			<?php
+				wp_nav_menu( array(
+					'theme_location' => 'menu',
+					'menu_id'        => 'primary-menu',
+				) );
+			?>
+			<a class="lightGreen" href="<?php echo esc_url( __( 'https://wordpress.org/', 'tea_guys' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
 				printf( esc_html__( 'Proudly powered by %s', 'tea_guys' ), 'WordPress' );
 				?>
 			</a>
-			<span class="sep"> | </span>
+			<span class="sep lightGreen"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'tea_guys' ), 'tea_guys', '<a href="https://cwd4500.usman.work/">Usman Butt</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'tea_guys' ), 'tea_guys', '<a class="lightGreen" href="https://cwd4500.usman.work/">Usman Butt</a>' );
 				?>
+				<p class="center lightGreen">Copyrights © Tea Guys, 2020</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
