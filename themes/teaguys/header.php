@@ -47,9 +47,9 @@
 				<div class="top-bar" id="example-menu">
 
 					<div class="top-bar-left">
-						<ul class="dropdown menu" data-dropdown-menu>
+						<!-- <ul class="dropdown menu" data-dropdown-menu>
 							<li class="menu-text">Tea Guys</li>
-						</ul>
+						</ul> -->
 					</div>
 
 					<div class="top-bar-right">
