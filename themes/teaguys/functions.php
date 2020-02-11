@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Tea_Guys
+ * @package tea_guys
  */
 
 if ( ! function_exists( 'tea_guys_setup' ) ) :

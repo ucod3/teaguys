@@ -2,7 +2,7 @@
 /**
  * Tea Guys Theme Customizer
  *
- * @package Tea_Guys
+ * @package tea_guys
  */
 
 /**

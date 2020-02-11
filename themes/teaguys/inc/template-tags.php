@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package Tea_Guys
+ * @package tea_guys
  */
 
 if ( ! function_exists( 'tea_guys_posted_on' ) ) :

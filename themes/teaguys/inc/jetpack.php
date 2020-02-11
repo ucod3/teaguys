@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.com/
  *
- * @package Tea_Guys
+ * @package tea_guys
  */
 
 /**

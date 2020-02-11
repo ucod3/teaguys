@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package Tea_Guys
+ * @package tea_guys
  */
 
 get_header();
