@@ -91,7 +91,10 @@ ul.dropdown.menu{
 }
 
 /* ------------------------ footer ------------------------*/
-
+#primary-menu>ul{
+    display: flex;
+    margin: auto auto;
+}
 
 /* ------------------------ blogs page ------------------------*/
 
