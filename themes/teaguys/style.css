@@ -61,10 +61,10 @@ li{
 
 #logoImg{
     background-image: url(logo.png);
-    height: 100px;
+    height: 80px;
     width: 300px;
     background-repeat: no-repeat;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .menu a{
     background-color: #A11D1D;
@@ -87,6 +87,7 @@ ul.dropdown.menu{
 
 .menu>li{
     background-color: #A11D1D;
+    margin-right: 40px;
 }
 
 #searchBar{
