@@ -64,10 +64,11 @@ body{
 
 #logoImg{
     background-image: url(logo.png);
-    height: 100px;
+    height: 95px;
     width: 300px;
     background-repeat: no-repeat;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 .menu a{
     background-color: #A11D1D;
