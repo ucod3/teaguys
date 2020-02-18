@@ -64,7 +64,7 @@ body{
 
 #logoImg{
     background-image: url(logo.png);
-    height: 80px;
+    height: 100px;
     width: 300px;
     background-repeat: no-repeat;
     margin-top: 10px;
