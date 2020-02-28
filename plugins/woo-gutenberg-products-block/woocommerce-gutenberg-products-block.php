@@ -180,3 +180,5 @@ JS;
 }
 
 add_filter( 'pre_load_script_translations', 'woocommerce_blocks_get_i18n_data_json', 10, 4 );
+
+// products changes made to dashbroad
