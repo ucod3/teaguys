@@ -630,7 +630,9 @@ p.demo_store a {
 .woocommerce ul.products li.product h3 {
     padding: .5em 0;
     margin: 0;
-    font-size: 1em
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
 }
 
 .woocommerce ul.products li.product a {
