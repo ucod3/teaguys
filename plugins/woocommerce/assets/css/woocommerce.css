@@ -665,7 +665,7 @@ p.demo_store a {
 }
 
 .woocommerce ul.products li.product .price {
-    color: #77a464;
+    color: rgb(189, 189, 189);
     display: block;
     font-weight: 400;
     margin-bottom: .5em;
