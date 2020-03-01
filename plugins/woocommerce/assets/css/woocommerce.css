@@ -636,7 +636,7 @@ p.demo_store a {
 .woocommerce ul.products li.product a {
     text-decoration: none;
     color: #A11D1D;
-    
+    font-family: ‘Nunito’, sans-serif;    
 }
 
 .woocommerce ul.products li.product a img {
@@ -759,10 +759,10 @@ p.demo_store a {
     overflow: visible;
     padding: .618em 1em;
     font-weight: 700;
-    border-radius: 3px;
+    border-radius: 10px;
     left: auto;
-    color: #515151;
-    background-color: #ebe9eb;
+    color: white;
+    background-color: white;
     display: inline-block;
     background-image: none;
     box-shadow: none;
