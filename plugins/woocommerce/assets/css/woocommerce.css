@@ -646,7 +646,8 @@ p.demo_store a {
     height: 200px;
     display: block;
     margin: 0 0 1em;
-    box-shadow: none
+    box-shadow: none;
+    border-radius: 10px;
 }
 
 .woocommerce ul.products li.product strong {
