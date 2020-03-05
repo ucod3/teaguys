@@ -1508,7 +1508,7 @@ p.demo_store a {
 }
 
 .woocommerce form .form-row .woocommerce-input-wrapper .description {
-    background: #1e85be;
+    background: #A11D1D;
     color: #fff;
     border-radius: 3px;
     padding: 1em;
@@ -1536,7 +1536,7 @@ p.demo_store a {
     position: absolute;
     border-width: 4px 6px 0 6px;
     border-style: solid;
-    border-color: #1e85be transparent transparent transparent;
+    border-color: #A11D1D transparent transparent transparent;
     z-index: 100;
     display: block
 }
@@ -2043,11 +2043,11 @@ p.demo_store a {
 }
 
 .woocommerce-info {
-    border-top-color: #1e85be
+    border-top-color: #A11D1D;
 }
 
 .woocommerce-info::before {
-    color: #1e85be
+    color: #A11D1D;
 }
 
 .woocommerce-error {
