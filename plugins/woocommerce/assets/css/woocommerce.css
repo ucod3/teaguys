@@ -343,6 +343,7 @@ p.demo_store a {
 .woocommerce div.product div.summary {
     margin-bottom: 2em;
     margin-right: 30px;
+    font-size: 17px;
 }
 
 .woocommerce div.product div.social {
@@ -602,10 +603,11 @@ p.demo_store a {
 
 .woocommerce .products ul,
 .woocommerce ul.products {
-    margin: 0 0 1em;
-    padding: 0;
+    margin-left: 100px;
+    margin-right: 100px;
     list-style: none outside;
-    clear: both
+    clear: both;
+    
 }
 
 .woocommerce .products ul::after,
