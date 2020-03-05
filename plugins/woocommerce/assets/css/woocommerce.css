@@ -164,7 +164,11 @@ p.demo_store a {
 
 .woocommerce .quantity .qty {
     width: 3.631em;
-    text-align: center
+    text-align: center;
+    border: 2px solid #A11D1D;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .woocommerce div.product {
@@ -219,9 +223,12 @@ p.demo_store a {
 
 .woocommerce div.product div.images img {
     display: block;
-    width: 100%;
-    height: auto;
-    box-shadow: none
+    width: 500px;
+    /* height: 500px;
+    box-shadow: none;
+    border: 2px solid #A11D1D;
+    border-radius: 10px;
+    margin-left: 40px; */
 }
 
 .woocommerce div.product div.images div.thumbnails {
@@ -821,16 +828,17 @@ p.demo_store a {
 .woocommerce a.button.alt,
 .woocommerce button.button.alt,
 .woocommerce input.button.alt {
-    background-color: #a46497;
-    color: #fff;
-    -webkit-font-smoothing: antialiased
+    background-color: white;
+    color: #A11D1D;
+    -webkit-font-smoothing: antialiased;
+    border: 2px solid #A11D1D;
 }
 
 .woocommerce #respond input#submit.alt:hover,
 .woocommerce a.button.alt:hover,
 .woocommerce button.button.alt:hover,
 .woocommerce input.button.alt:hover {
-    background-color: #96588a;
+    background-color:#A11D1D;
     color: #fff
 }
 
