@@ -223,12 +223,12 @@ p.demo_store a {
 
 .woocommerce div.product div.images img {
     display: block;
-    width: 500px;
-    /* height: 500px;
+    width: 400px;
+    height: 400px;
     box-shadow: none;
     border: 2px solid #A11D1D;
     border-radius: 10px;
-    margin-left: 40px; */
+    margin-left: 80px;
 }
 
 .woocommerce div.product div.images div.thumbnails {
@@ -341,7 +341,8 @@ p.demo_store a {
 }
 
 .woocommerce div.product div.summary {
-    margin-bottom: 2em
+    margin-bottom: 2em;
+    margin-right: 30px;
 }
 
 .woocommerce div.product div.social {
