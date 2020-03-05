@@ -775,7 +775,7 @@ p.demo_store a {
     font-weight: 700;
     border-radius: 10px;
     left: auto;
-    color: white;
+    color: #A11D1D;
     background-color: white;
     display: inline-block;
     background-image: none;
@@ -885,7 +885,7 @@ p.demo_store a {
 .woocommerce input.button.disabled,
 .woocommerce input.button:disabled,
 .woocommerce input.button:disabled[disabled] {
-    color: inherit;
+    color: #A11D1D;
     cursor: not-allowed;
     opacity: .5;
     padding: .618em 1em
@@ -903,7 +903,7 @@ p.demo_store a {
 .woocommerce input.button.disabled:hover,
 .woocommerce input.button:disabled:hover,
 .woocommerce input.button:disabled[disabled]:hover {
-    color: inherit;
+    color: #A11D1D;
     background-color: #ebe9eb
 }
 
@@ -2154,7 +2154,7 @@ p.demo_store a {
     border: 1px solid #d3ced2;
     padding: 6px 6px 5px;
     margin: 0 4px 0 0;
-    outline: 0
+    outline: 0;
 }
 
 #add_payment_method table.cart input,

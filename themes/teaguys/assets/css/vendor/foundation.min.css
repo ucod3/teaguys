@@ -3759,9 +3759,10 @@ screen and (min-width:40em) {
 
 a {
     line-height: inherit;
-    color: #1779ba;
+    color: grey;
     text-decoration: none;
-    cursor: pointer
+    cursor: pointer;
+    font-weight: bold;
 }
 
 a:focus,
