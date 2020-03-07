@@ -3678,7 +3678,8 @@ h1 {
     font-size: 1.5rem;
     line-height: 1.4;
     margin-top: 0;
-    margin-bottom: .5rem
+    margin-bottom: .5rem;
+    font-family: 'Nunito', sans-serif;
 }
 
 .h2,
