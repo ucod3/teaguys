@@ -4739,6 +4739,8 @@ textarea[readonly] {
     border-radius: 10px;
     color: #A11D1D;
     font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    padding: 10px;
 }
 
 input[type=search] {
