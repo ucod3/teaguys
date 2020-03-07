@@ -3734,6 +3734,7 @@ screen and (min-width:40em) {
         font-size: 2.5rem;
         text-align: center;
         margin: 0 auto;
+        font-family: 'Nunito', sans-serif;
     }
 
     .h3,
