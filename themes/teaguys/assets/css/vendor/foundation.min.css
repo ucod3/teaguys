@@ -4736,6 +4736,7 @@ textarea[readonly] {
     appearance: none;
     border-radius: 0;
     border: 2px solid #A11D1D;
+    border-radius: 10px;
 }
 
 input[type=search] {
