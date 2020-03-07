@@ -4710,7 +4710,8 @@ textarea:focus {
     -webkit-transition: border-color .25s ease-in-out, -webkit-box-shadow .5s;
     transition: border-color .25s ease-in-out, -webkit-box-shadow .5s;
     transition: box-shadow .5s, border-color .25s ease-in-out;
-    transition: box-shadow .5s, border-color .25s ease-in-out, -webkit-box-shadow .5s
+    transition: box-shadow .5s, border-color .25s ease-in-out, -webkit-box-shadow .5s;
+    font-family: 'Nunito', sans-serif;
 }
 
 textarea {
