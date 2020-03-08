@@ -44,7 +44,7 @@ if ( ! function_exists( 'tea_guys_setup' ) ) :
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
-			'menu-1' => esc_html__( 'Primary', 'tea_guys' ),
+			'menu' => esc_html__( 'Primary', 'tea_guys' ),
 		) );
 
 		/*
@@ -64,6 +64,16 @@ if ( ! function_exists( 'tea_guys_setup' ) ) :
 			'default-color' => 'ffffff',
 			'default-image' => '',
 		) ) );
+
+			/**
+		 * Add theme support
+		*/
+		add_theme_support('wp-block-styles');
+
+		/**
+		 * add theme support for align wide
+		*/
+		add_theme_support( 'align-wide' );
 
 		// Add theme support for selective refresh for widgets.
 		add_theme_support( 'customize-selective-refresh-widgets' );
@@ -139,7 +149,7 @@ add_action( 'wp_enqueue_scripts', 'tea_guys_scripts' );
  */
 
 function wpb_add_google_fonts() {
-	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Nunito&display=swap', false ); 
+	wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Nunito&display=swap', false );
 }
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 
