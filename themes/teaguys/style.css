@@ -161,6 +161,15 @@ footer > div > a{
     font-weight: 800;
 }
 
+#post-7 h4{
+    color: #000;
+}
+
+#post-7 .wp-block-group__inner-container{
+    background: #EEEEEE;
+    padding: 100px;
+}
+
 #post-7 small{
     color: #A11D1D;
 }
