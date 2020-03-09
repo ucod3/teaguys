@@ -15,9 +15,9 @@ Text Domain: tea_guys
 	font-family: 'Nunito', sans-serif;
 }
 
-/* .grid-container{
+h1,h2,h3,h4,h5,h6,p,a,ol,ul,li,textarea,text,button{
     font-family: 'Nunito', sans-serif;
-} */
+}
 
 #masthead{ 
     background-color: #A11D1D;
@@ -59,6 +59,7 @@ li{
 
 body{
     text-align: center;
+
 }
 /* ------------------------ header ------------------------*/
 
@@ -159,15 +160,27 @@ footer > div > a{
 #post-7{
     text-align: left;
     font-weight: 800;
+	font-family: 'Nunito', sans-serif;
+
 }
 
 #post-7 h4{
     color: #000;
+    font-weight: 0;
+	font-family: 'Nunito', sans-serif;
+}
+
+#post-7 p{
+    color: #222222;
+    font-weight: 100;
 }
 
 #post-7 .wp-block-group__inner-container{
     background: #EEEEEE;
-    padding: 100px;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px #999;
 }
 
 #post-7 small{
@@ -184,6 +197,7 @@ footer > div > a{
     background: none;
     color: #A11D1D;
     border: 1px solid #A11D1D;
+    margin: 10px auto 30px auto;
 }
 
 #post-7 button:hover{
