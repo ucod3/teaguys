@@ -116,6 +116,23 @@ ul.dropdown.menu{
     justify-content: right;
 }
 
+/* tablet view */
+@media (min-width:600px){
+    #logoImg{
+        max-height: 50px;
+        padding-left: 5px;
+    }
+    .top-bar li{
+        display: block;
+        margin: auto auto;
+        font-size: 10pt;
+    }
+    .top-bar li:last-of-type{
+        margin-left: 20px;
+    }
+}
+
+/* mobile view */
 @media only screen and (max-width: 600px) {
     #logoImg{
         max-height: 50px;
@@ -172,6 +189,7 @@ footer > div > a{
     letter-spacing: 2px;
 }
 
+/* mobile view */
 @media only screen and (max-width: 600px) {
     #primary-menu>ul{
         font-size: 10pt;
