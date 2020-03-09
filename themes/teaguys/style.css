@@ -159,3 +159,7 @@ footer > div > a{
 #post-7{
     text-align: left;
 }
+
+#post-7 input[type="text"], #post-7 input[type="email"], #post-7 textarea{
+    border-radius: 5px;
+}
