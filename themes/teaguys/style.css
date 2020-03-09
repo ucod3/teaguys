@@ -59,6 +59,7 @@ li{
 
 body{
     text-align: center;
+    height: 100%;
 
 }
 /* ------------------------ header ------------------------*/
@@ -117,7 +118,14 @@ ul.dropdown.menu{
 }
 
 /* tablet view */
-@media (min-width:600px){
+@media (max-width:801px){
+    #example-menu{
+        background-color: #A11D1D;
+        height: 75px;
+        -webkit-box-shadow: 0px 0px 8px 0px #D0F1C0; 
+        box-shadow: 0px 0px 8px 0px #333;
+        
+    }
     #logoImg{
         max-height: 50px;
         padding-left: 5px;
@@ -169,6 +177,7 @@ ul.dropdown.menu{
 }
 
 /* ------------------------ footer ------------------------*/
+
 #footerStyle{
     display: flex;
     align-items: center;
@@ -187,6 +196,19 @@ footer > div > a{
     margin: auto auto;
     font-weight: bolder;
     letter-spacing: 2px;
+}
+
+/* tablet view */
+@media (max-width:801px){
+    #footerStyle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #A11D1D;
+        color: #D0F1C0;
+        height: 150px;
+        text-align: center;
+    }
 }
 
 /* mobile view */
