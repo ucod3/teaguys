@@ -15,9 +15,9 @@ Text Domain: tea_guys
 	font-family: 'Nunito', sans-serif;
 }
 
-/* .grid-container{
+h1,h2,h3,h4,h5,h6,p,a,ol,ul,li,textarea,text,button{
     font-family: 'Nunito', sans-serif;
-} */
+}
 
 #masthead{ 
     background-color: #A11D1D;
@@ -59,16 +59,17 @@ li{
 
 body{
     text-align: center;
+    height: 100%;
+
 }
 /* ------------------------ header ------------------------*/
 
 #logoImg{
     background-image: url(logo.png);
-    height: 90px;
-    width: 300px;
+    max-height: 75px;
     background-repeat: no-repeat;
-    margin-top: 5px;
-    margin-left: 20px;
+    text-align: left;
+    padding-left: 10px;
 }
 .menu a{
     background-color: #A11D1D;
@@ -82,6 +83,10 @@ body{
 
 ul.dropdown.menu{
     background-color: #A11D1D;
+}
+
+.top-bar{
+    max-width: 100vw;
 }
 
 .top-bar.ul.a{
@@ -112,7 +117,67 @@ ul.dropdown.menu{
     justify-content: right;
 }
 
+/* tablet view */
+@media (max-width:801px){
+    #example-menu{
+        background-color: #A11D1D;
+        height: 75px;
+        -webkit-box-shadow: 0px 0px 8px 0px #D0F1C0; 
+        box-shadow: 0px 0px 8px 0px #333;
+        
+    }
+    #logoImg{
+        max-height: 50px;
+        padding-left: 5px;
+    }
+    .top-bar li{
+        display: block;
+        margin: auto auto;
+        font-size: 10pt;
+    }
+    .top-bar li:last-of-type{
+        margin-left: 20px;
+    }
+}
+
+/* mobile view */
+@media only screen and (max-width: 600px) {
+    #logoImg{
+        max-height: 50px;
+        display: flex;
+        justify-self: center;
+        padding: 0;
+    }
+
+    .top-bar a{
+        background-color: none;
+        font-size: 8pt;
+    }
+
+    .top-bar li{
+        display: block;
+        margin: auto auto 5px auto;
+    }
+
+    .top-bar li:last-of-type{
+        display: block;
+        margin: auto auto;
+    }
+
+    #example-menu{
+        height: 160px;
+        margin: 0;
+    }
+
+    #searchBar{
+        margin-bottom: 10px;
+        width: 100;
+    }
+
+}
+
 /* ------------------------ footer ------------------------*/
+
 #footerStyle{
     display: flex;
     align-items: center;
@@ -131,6 +196,26 @@ footer > div > a{
     margin: auto auto;
     font-weight: bolder;
     letter-spacing: 2px;
+}
+
+/* tablet view */
+@media (max-width:801px){
+    #footerStyle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #A11D1D;
+        color: #D0F1C0;
+        height: 150px;
+        text-align: center;
+    }
+}
+
+/* mobile view */
+@media only screen and (max-width: 600px) {
+    #primary-menu>ul{
+        font-size: 10pt;
+    }
 }
 
 /* ------------------------ blogs page ------------------------*/
@@ -156,11 +241,51 @@ footer > div > a{
 
 /* ------------------------ contact page ------------------------*/
 
-/* icons */
-.wp-block-media-text>figure>img{
+#post-7{
+    text-align: left;
+    font-weight: 800;
+	font-family: 'Nunito', sans-serif;
 
 }
 
-.wp-block-media-text{
-    margin: auto auto;
+#post-7 h4{
+    color: #000;
+    font-weight: 0;
+	font-family: 'Nunito', sans-serif;
+}
+
+#post-7 p{
+    color: #222222;
+    font-weight: 100;
+}
+
+#post-7 .wp-block-group__inner-container{
+    background: #EEEEEE;
+    padding: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px #999;
+}
+
+#post-7 small{
+    color: #A11D1D;
+}
+
+#post-7 input[type="text"], #post-7 input[type="email"], #post-7 textarea, #post-7 button{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 3px 0px #999;
+}
+
+#post-7 button{
+    background: none;
+    color: #A11D1D;
+    border: 1px solid #A11D1D;
+    margin: 10px auto 30px auto;
+}
+
+#post-7 button:hover{
+    background: #A11D1D;
+    color: #FFFFFF;
+    border: none;
 }
