@@ -160,6 +160,20 @@ footer > div > a{
     text-align: left;
 }
 
-#post-7 input[type="text"], #post-7 input[type="email"], #post-7 textarea{
+#post-7 input[type="text"], #post-7 input[type="email"], #post-7 textarea, #post-7 button{
     border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 3px 0px #999;
+}
+
+#post-7 button{
+    background: none;
+    color: #A11D1D;
+    border: 1px solid #A11D1D;
+}
+
+#post-7 button:hover{
+    background: #A11D1D;
+    color: #FFFFFF;
+    border: none;
 }
