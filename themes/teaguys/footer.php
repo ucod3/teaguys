@@ -22,7 +22,7 @@
 				) );
 			?>
 
-				<p class="center lightGreen">Copyrights © Tea Guys, 2020</p>
+				<p class="center lightGreen"><?php echo esc_html__('Copyright'); ?> &#169; Tea Guys <?php echo date('Y'); ?></p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
