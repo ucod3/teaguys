@@ -156,11 +156,6 @@ footer > div > a{
 
 /* ------------------------ contact page ------------------------*/
 
-/* icons */
-.wp-block-media-text>figure>img{
-
-}
-
-.wp-block-media-text{
-    margin: auto auto;
+#post-7{
+    text-align: left;
 }
