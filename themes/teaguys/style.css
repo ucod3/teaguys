@@ -172,6 +172,12 @@ footer > div > a{
     letter-spacing: 2px;
 }
 
+@media only screen and (max-width: 600px) {
+    #primary-menu>ul{
+        font-size: 10pt;
+    }
+}
+
 /* ------------------------ blogs page ------------------------*/
 
 /* figure caption settings */
