@@ -46,10 +46,7 @@
 				<div class="top-bar" id="example-menu">
 
 					<div id="logoImg" class="top-bar-left">
-						<img  />
-						<!-- <ul class="dropdown menu" data-dropdown-menu>
-							<li class="menu-text">Tea Guys</li>
-						</ul> -->
+						<img src="http://teaguys.local/wp-content/uploads/2020/03/logo-e1583715434610.png" id="logoImg" />
 					</div>
 
 					<div class="top-bar-right">
