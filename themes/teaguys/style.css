@@ -122,8 +122,8 @@ ul.dropdown.menu {
 
 #example-menu {
     background-color: #a11d1d;
-    z-index: 999;
-    border-bottom: #d0f1c0;
+    z-index: 1000;
+    margin-bottom: 0px;
 	height: 100px;
 	-webkit-box-shadow: 0px 0px 8px 0px #d0f1c0;
 	box-shadow: 0px 0px 8px 0px #333;
@@ -388,11 +388,15 @@ footer > div > a {
     height: 300px;
 }
 
-#post-141 .wp-block-cover{
-    position: relative;
+.wp-block-cover{
     width: 100vw;
     margin-left: -135px;
     z-index: 0;
+}
+
+.has-background-dim{
+    z-index: 0;
+    background-image: url(http://teaguys.local/wp-content/uploads/2020/02/bg-1.png);
 }
 
 #primary .grid-container:first-child{
