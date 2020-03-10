@@ -53,3 +53,11 @@ function tea_guys_customize_preview_js() {
 	wp_enqueue_script( 'tea_guys-customizer', get_template_directory_uri() . '/assets/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
 add_action( 'customize_preview_init', 'tea_guys_customize_preview_js' );
+
+/**
+ * panels
+ */
+$wp_customize -> add_panel('social_media_panel', array(
+	'title' => exc_html__('Social Media', 'tea_guys'),
+	'capability' => 'edit_theme_options'
+));
