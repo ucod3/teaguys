@@ -353,7 +353,6 @@ footer > div > a {
 }
 
 .entry-title {
-	text-align: left;
 	padding-left: 5vw;
 }
 
@@ -368,4 +367,8 @@ footer > div > a {
 .comment-form {
 	max-width: 75vw;
 	margin: 10px auto;
+}
+
+#post-141 .entry-title{
+    display: none;
 }
