@@ -410,7 +410,6 @@ footer > div > a {
 	text-align: center;
 } */
 .social-media {
-	/* text-align: justify; */
 	display: flex;
 	justify-content: center;
 }
