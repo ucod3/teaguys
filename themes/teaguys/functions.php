@@ -45,6 +45,8 @@ if ( ! function_exists( 'tea_guys_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu' => esc_html__( 'Primary', 'tea_guys' ),
+			'header-menu' => esc_html__( 'Header', 'tea_guys' ),
+			// 'footer-menu' => esc_html__( 'Footer', 'tea_guys' ),
 		) );
 
 		/*
