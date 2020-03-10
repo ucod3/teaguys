@@ -121,9 +121,14 @@ ul.dropdown.menu {
 }
 
 #example-menu {
+	<<<<<<<HEAD
 	background-color: #a11d1d;
 	z-index: 999;
 	border-bottom: #d0f1c0;
+	=======background-color: #a11d1d;
+	z-index: 1000;
+	margin-bottom: 0px;
+	>>>>>>>8989dfa294195480086031db9874a30635cf5a14
 	height: 100px;
 	-webkit-box-shadow: 0px 0px 8px 0px #d0f1c0;
 	box-shadow: 0px 0px 8px 0px #333;
@@ -409,4 +414,17 @@ footer > div > a {
 .social-media {
 	/* text-align: justify; */
 	display: flex;
+}
+.wp-block-cover {
+	width: 100vw;
+	margin-left: -135px;
+	z-index: 0;
+}
+
+.has-background-dim {
+	z-index: 0;
+	background-image: url(http://teaguys.local/wp-content/uploads/2020/02/bg-1.png);
+}
+
+#primary .grid-container:first-child {
 }
