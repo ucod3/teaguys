@@ -211,7 +211,16 @@ ul.dropdown.menu {
 	text-align: center;
 }
 
-footer > div > a {
+#footerStyle .facebook{
+    display: flex;
+    position: absolute;
+    right: 50px;
+}
+
+#footerStyle .twitter{
+    display: flex;
+    position: absolute;
+    right: 100px;
 }
 
 #primary-menu > ul {
