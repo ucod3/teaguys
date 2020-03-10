@@ -337,7 +337,7 @@ footer > div > a {
     color: #000000;
 }
 
-#comment{
+#comment, #author, #email, #url{
     width: 70vw;
     margin: 10px auto;
 }
