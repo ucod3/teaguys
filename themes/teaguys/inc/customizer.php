@@ -70,3 +70,9 @@ $wp_customize -> add_section('facebook', array(
 	'capability' => 'edit_theme_options',
 	'panel' => 'social_media_panel'
 ));
+
+$wp_customize -> add_section('twitter', array(
+	'title' => esc_html__('Twitter', 'tea_guys'),
+	'capability' => 'edit_theme_options',
+	'panel' => 'social_media_panel'
+));
