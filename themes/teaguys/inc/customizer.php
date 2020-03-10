@@ -91,3 +91,16 @@ $wp_customize -> add_setting('twitter_url', array(
 	'default' => '',
 	'sanitize_callback' => 'esc_url_raw'
 ));
+
+/**
+ * controls
+ */
+$wp_customize -> add_control('facebook_url', array(
+	'label' => esc_html__('URL', 'tea_guys'),
+	'description' => esc_html__('Add URL to display Facebook link', 'tea_guys'),
+	'section' => 'facebook',
+	'type' => 'input',
+	'input_attrs' => array(
+		'placeholder' => esc_html__('https://facebook.com', 'tea_guys'),
+	)
+));
