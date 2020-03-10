@@ -17,7 +17,7 @@
 		<div class="site-info">
 			<?php
 				wp_nav_menu( array(
-					'theme_location' => 'menu',
+					'theme_location' => 'footer-menu',
 					'menu_id'        => 'primary-menu',
 				) );
 			?>
