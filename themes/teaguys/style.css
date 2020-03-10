@@ -402,12 +402,11 @@ footer > div > a {
 }
 
 /* Social Media Icons */
-/* .facebook {
-
+.facebook {
 }
 
 .twitter {
-} */
+}
 .social-media {
 	display: flex;
 	justify-content: center;
