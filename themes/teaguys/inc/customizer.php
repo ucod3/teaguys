@@ -85,3 +85,9 @@ $wp_customize -> add_setting('facebook_url', array(
 	'default' => '',
 	'sanitize_callback' => 'esc_url_raw'
 ));
+
+$wp_customize -> add_setting('twitter_url', array(
+	'transport' => 'refresh',
+	'default' => '',
+	'sanitize_callback' => 'esc_url_raw'
+));
