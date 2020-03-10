@@ -309,3 +309,22 @@ footer > div > a {
 	width: 50vw;
 	height: auto;
 }
+
+/* wooCommerce */
+#post-78{
+}
+
+#post-78 .products{
+}
+
+.woocommerce-LoopProduct-link img{
+    text-align: center;
+}
+
+.woocommerce ul.products li.product .button{
+    float: left;
+}
+
+.columns-3{
+    width: 75vw;
+}
