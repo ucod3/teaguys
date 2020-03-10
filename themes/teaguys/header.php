@@ -64,6 +64,10 @@
 					</div>
 
 				</div>
+				<div style="background-image:url(http://teaguys.local/wp-content/uploads/2020/02/bg-1-1.png);min-height:670px;z-index:900;">
+					<img style="margin-top:100px;" src="http://teaguys.local/wp-content/uploads/2020/02/blackTea-1-300x255.png" alt="" class="wp-image-79">
+					<h1 style="color:#FFFFFF">Tea is all you need!</h1>
+				</div>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 

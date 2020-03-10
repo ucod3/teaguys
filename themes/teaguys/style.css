@@ -372,3 +372,15 @@ footer > div > a {
 #post-141 .entry-title{
     display: none;
 }
+
+#post-141 h2{
+    margin: 50px auto;
+}
+
+#post-141 select{
+    display: none;
+}
+
+#post-141 .wc-block-grid__product-image img{
+    height: 300px;
+}
