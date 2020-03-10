@@ -33,7 +33,7 @@ text,
 button {
 	font-family: 'Nunito', sans-serif;
 }
-
+/* applying background to #masthead*/
 #masthead {
 	background-color: #a11d1d;
 }
