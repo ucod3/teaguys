@@ -11,10 +11,12 @@ Text Domain: tea_guys
 */
 @import url(‘https://fonts.googleapis.com/css?family=Nunito&display=swap’);
 
+/* Applies to everything */
 * {
 	font-family: 'Nunito', sans-serif;
 }
 
+/* Applies font family to the following tags */
 h1,
 h2,
 h3,
@@ -31,7 +33,7 @@ text,
 button {
 	font-family: 'Nunito', sans-serif;
 }
-
+/* applying background to #masthead*/
 #masthead {
 	background-color: #a11d1d;
 }
@@ -49,6 +51,7 @@ button {
 	font-size: 25pt;
 }
 
+/* transition on a tags */
 a {
 	transition: 0.3s ease-in-out;
 }
