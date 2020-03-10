@@ -32,6 +32,7 @@
 	<?php tea_guys_post_thumbnail(); ?>
 
 	<div class="entry-content">
+	<div class="grid-container">
 		<?php
 		the_content( sprintf(
 			wp_kses(
@@ -51,6 +52,7 @@
 			'after'  => '</div>',
 		) );
 		?>
+	</div>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
