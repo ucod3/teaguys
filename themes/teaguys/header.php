@@ -46,7 +46,7 @@
 				<div class="top-bar" id="example-menu">
 
 					<div id="logoImg" class="top-bar-left">
-						<img src="http://teaguys.local/wp-content/uploads/2020/03/logo-e1583715434610.png" id="logoImg" />
+						<a href="http://teaguys.local"><img src="http://teaguys.local/wp-content/uploads/2020/03/logo-e1583715434610.png" id="logoImg" /></a>
 					</div>
 
 					<div class="top-bar-right">
