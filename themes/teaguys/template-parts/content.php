@@ -54,6 +54,10 @@
 		?>
 	</div>
 	</div><!-- .entry-content -->
+	<div style="background-image:url(http://teaguys.local/wp-content/uploads/2020/02/bg-1.png);background-size:contain;min-height:670px;z-index:900;">
+		<img style="margin-top:100px;" src="http://teaguys.local/wp-content/uploads/2020/02/blackTea-1-300x255.png" alt="" class="wp-image-79">
+		<h1 style="color:#FFFFFF">Tea is all you need!</h1>
+	</div>
 
 	<footer class="entry-footer">
 		<?php tea_guys_entry_footer(); ?>
