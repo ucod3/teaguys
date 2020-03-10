@@ -351,3 +351,11 @@ footer > div > a {
     text-align: left;
     padding-left: 5vw;
 }
+
+.nav-previous{
+    display: none;
+}
+
+.respond{
+    text-align: center;
+}
