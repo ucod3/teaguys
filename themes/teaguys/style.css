@@ -345,7 +345,6 @@ footer > div > a {
 #email,
 #url {
 	width: 70vw;
-	margin: 10px auto;
 }
 
 .form-submit {
@@ -364,4 +363,9 @@ footer > div > a {
 
 .respond {
 	text-align: center;
+}
+
+.comment-form {
+	max-width: 75vw;
+	margin: 10px auto;
 }
