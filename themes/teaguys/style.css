@@ -63,7 +63,7 @@ p {
 li {
 	list-style-type: none;
 }
-
+/* text align and margin setting for class center */
 .center {
 	margin: 10px auto;
 	text-align: center;
