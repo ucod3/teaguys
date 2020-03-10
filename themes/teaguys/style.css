@@ -55,7 +55,7 @@ button {
 a {
 	transition: 0.3s ease-in-out;
 }
-
+/* text align for paragraph tags */
 p {
 	text-align: justify;
 }
@@ -314,55 +314,58 @@ footer > div > a {
 }
 
 /* wooCommerce */
-#post-78{
+#post-78 {
 }
 
-#post-78 .products{
+#post-78 .products {
 }
 
-.woocommerce-LoopProduct-link img{
-    text-align: center;
+.woocommerce-LoopProduct-link img {
+	text-align: center;
 }
 
-.woocommerce ul.products li.product .button{
-    float: left;
+.woocommerce ul.products li.product .button {
+	float: left;
 }
 
-.woocommerce .woocommerce-result-count{
-    display: none;
+.woocommerce .woocommerce-result-count {
+	display: none;
 }
 
-.columns-3{
-    width: 75vw;
+.columns-3 {
+	width: 75vw;
 }
 
-.amount{
-    color: #000000;
+.amount {
+	color: #000000;
 }
 
-#comment, #author, #email, #url{
-    width: 70vw;
+#comment,
+#author,
+#email,
+#url {
+	width: 70vw;
 }
 
-.form-submit{
-    text-align: center;
-    margin: 10px auto;
+.form-submit {
+	text-align: center;
+	margin: 10px auto;
 }
 
-.entry-title{
-    text-align: left;
-    padding-left: 5vw;
+.entry-title {
+	text-align: left;
+	padding-left: 5vw;
 }
 
-.nav-previous{
-    display: none;
+.nav-previous {
+	display: none;
 }
 
-.respond{
-    text-align: center;
+.respond {
+	text-align: center;
 }
 
-.comment-form{
-    max-width: 75vw;
-    margin: 10px auto;
+.comment-form {
+	max-width: 75vw;
+	margin: 10px auto;
 }
