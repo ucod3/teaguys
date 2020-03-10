@@ -73,7 +73,7 @@ li {
 .lightGreen {
 	color: #d0f1c0;
 }
-
+/* text alignment and height settings for body */
 body {
 	text-align: center;
     height: 100%;
