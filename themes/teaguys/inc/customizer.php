@@ -104,3 +104,13 @@ $wp_customize -> add_control('facebook_url', array(
 		'placeholder' => esc_html__('https://facebook.com', 'tea_guys'),
 	)
 ));
+
+$wp_customize -> add_control('twitter_url', array(
+	'label' => esc_html__('URL', 'tea_guys'),
+	'description' => esc_html__('Add URL to display Twitter link', 'tea_guys'),
+	'section' => 'twitter',
+	'type' => 'input',
+	'input_attrs' => array(
+		'placeholder' => esc_html__('https://twitter.com', 'tea_guys'),
+	)
+));
