@@ -61,3 +61,12 @@ $wp_customize -> add_panel('social_media_panel', array(
 	'title' => exc_html__('Social Media', 'tea_guys'),
 	'capability' => 'edit_theme_options'
 ));
+
+/**
+ * sections
+ */
+$wp_customize -> add_section('facebook', array(
+	'title' => esc_html__('Facebook', 'tea_guys'),
+	'capability' => 'edit_theme_options',
+	'panel' => 'social_media_panel'
+));
