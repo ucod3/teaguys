@@ -51,8 +51,7 @@ function tea_guys_customize_partial_blogdescription() {
  */
 function tea_guys_customize_preview_js() {
 	wp_enqueue_script( 'tea_guys-customizer', get_template_directory_uri() . '/assets/js/customizer.js', array( 'customize-preview' ), '20151215', true );
-}
-add_action( 'customize_preview_init', 'tea_guys_customize_preview_js' );
+
 
 /**
  * panels
@@ -114,6 +113,10 @@ $wp_customize -> add_control('twitter_url', array(
 		'placeholder' => esc_html__('https://twitter.com', 'tea_guys'),
 	)
 ));
+
+}
+add_action( 'customize_preview_init', 'tea_guys_customize_preview_js' );
+
 
 // implement customizer control
 if (get_theme_mod('facebook_url')) {
