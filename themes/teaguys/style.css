@@ -306,6 +306,6 @@ footer > div > a {
 }
 
 .wp-post-image {
-	width: 25vh;
-	height: 25vh;
+	width: 25vw;
+	height: auto;
 }
