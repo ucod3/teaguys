@@ -59,7 +59,7 @@ a {
 p {
 	text-align: justify;
 }
-
+/* list-style-type for li */
 li {
 	list-style-type: none;
 }
