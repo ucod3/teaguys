@@ -289,3 +289,8 @@ footer > div > a{
     color: #FFFFFF;
     border: none;
 }
+
+/* customizer */
+.social-icons{
+    max-height: 20px;
+}
