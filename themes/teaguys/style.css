@@ -325,6 +325,10 @@ footer > div > a {
     float: left;
 }
 
+.woocommerce .woocommerce-result-count{
+    display: none;
+}
+
 .columns-3{
     width: 75vw;
 }
