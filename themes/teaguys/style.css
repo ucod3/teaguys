@@ -408,4 +408,5 @@ footer > div > a {
 } */
 .social-media {
 	/* text-align: justify; */
+	display: flex;
 }
