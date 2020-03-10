@@ -76,3 +76,12 @@ $wp_customize -> add_section('twitter', array(
 	'capability' => 'edit_theme_options',
 	'panel' => 'social_media_panel'
 ));
+
+/**
+ * settings
+ */
+$wp_customize -> add_setting('facebook_url', array(
+	'transport' => 'refresh',
+	'default' => '',
+	'sanitize_callback' => 'esc_url_raw'
+));
