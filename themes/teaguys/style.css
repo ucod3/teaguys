@@ -407,12 +407,6 @@ footer > div > a {
 #primary .grid-container:first-child {
 }
 
-/* Social Media Icons */
-.social-media {
-	display: flex;
-	justify-content: center;
-}
-
 .has-background-dim {
 	z-index: 0;
 	background-image: url(http://teaguys.local/wp-content/uploads/2020/02/bg-1.png);
