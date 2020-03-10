@@ -332,3 +332,17 @@ footer > div > a {
 .columns-3{
     width: 75vw;
 }
+
+.amount{
+    color: #000000;
+}
+
+#comment{
+    width: 70vw;
+    margin: 10px auto;
+}
+
+.form-submit{
+    text-align: center;
+    margin: 10px auto;
+}
