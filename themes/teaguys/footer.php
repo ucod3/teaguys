@@ -24,6 +24,14 @@
 
 				<p class="center lightGreen"><?php echo esc_html__('Copyright'); ?> &#169; Tea Guys <?php echo date('Y'); ?></p>
 		</div><!-- .site-info -->
+	<ul class="social-media">
+		<?php if(get_theme_mod('facebook_url')) { ?>
+			<li class="facebook">
+				<a href="<?php echo get_theme_mod('facebook_url'); ?>"><img class="social-icons" src="<?php echo get_template_directory_uri() . '/assets/img/facebook.png'; ?>" alt="<?php echo esc_html__('Facebook', 'tea_guys') ?>"></a>
+			</li>
+		<?php } ?>
+	</ul>
+
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
