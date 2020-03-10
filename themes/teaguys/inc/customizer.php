@@ -118,15 +118,3 @@ function tea_guys_customize_preview_js() {
 
 add_action( 'customize_preview_init', 'tea_guys_customize_preview_js' );
 
-
-if (get_theme_mod('twitter_url')) {
-	?>
-	<ul class="social-media">
-		<?php if(get_theme_mod('twitter_url')) { ?>
-			<li class="twitter">
-				<a href="<?php echo get_theme_mod('twitter_url'); ?>"><img class="social-icons" src="<?php echo get_template_directory_uri() . '/assets/img/twitter.png'; ?>" alt="<?php echo esc_html__('Twitter', 'tea_guys') ?>"></a>
-			</li>
-		<?php } ?>
-	</ul>
-	<?php
-}
