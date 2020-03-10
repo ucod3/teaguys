@@ -79,6 +79,7 @@ body {
     height: 100%;
 }
 
+/* background image and size for main*/
 main{
     background-image: url(http://teaguys.local/wp-content/uploads/2020/02/bg-1.png);
     background-size: cover;
