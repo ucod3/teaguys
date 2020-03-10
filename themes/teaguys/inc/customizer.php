@@ -121,7 +121,7 @@ if (get_theme_mod('facebook_url')) {
 	<ul class="social-media">
 		<?php if(get_theme_mod('facebook_url')) { ?>
 			<li class="facebook">
-				<a href="<?php echo get_theme_mod('facebook_url'); ?>"><img class="social-icons" src="<?php echo get_template_directory_uri() . '/assets/img/facebook-white.png'; ?>" alt="<?php echo esc_html__('Facebook', 'tea_guys') ?>"></a>
+				<a href="<?php echo get_theme_mod('facebook_url'); ?>"><img class="social-icons" src="<?php echo get_template_directory_uri() . '/assets/img/facebook.png'; ?>" alt="<?php echo esc_html__('Facebook', 'tea_guys') ?>"></a>
 			</li>
 		<?php } ?>
 	</ul>
@@ -133,7 +133,7 @@ if (get_theme_mod('twitter_url')) {
 	<ul class="social-media">
 		<?php if(get_theme_mod('twitter_url')) { ?>
 			<li class="twitter">
-				<a href="<?php echo get_theme_mod('twitter_url'); ?>"><img class="social-icons" src="<?php echo get_template_directory_uri() . '/assets/img/twitter-white.png'; ?>" alt="<?php echo esc_html__('Twitter', 'tea_guys') ?>"></a>
+				<a href="<?php echo get_theme_mod('twitter_url'); ?>"><img class="social-icons" src="<?php echo get_template_directory_uri() . '/assets/img/twitter.png'; ?>" alt="<?php echo esc_html__('Twitter', 'tea_guys') ?>"></a>
 			</li>
 		<?php } ?>
 	</ul>
