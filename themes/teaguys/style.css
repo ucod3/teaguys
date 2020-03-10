@@ -397,12 +397,6 @@ footer > div > a {
 	height: 300px;
 }
 
-#post-141 .wp-block-cover {
-	position: relative;
-	width: 100vw;
-	margin-left: -135px;
-	z-index: 0;
-}
 
 #primary .grid-container:first-child {
 }
@@ -417,11 +411,6 @@ footer > div > a {
 	display: flex;
 	justify-content: center;
 }
-.wp-block-cover {
-	width: 100vw;
-	margin-left: -135px;
-	z-index: 0;
-}
 
 .has-background-dim {
 	z-index: 0;
@@ -431,6 +420,9 @@ footer > div > a {
 .wp-block-cover{
     background: transparent;
     background-size: contain;
+    display: flex;
+    justify-content: center;
+    padding: 0;
 }
 
 .has-background-dim{
