@@ -73,12 +73,13 @@ li {
 .lightGreen {
 	color: #d0f1c0;
 }
-
+/* text alignment and height settings for body */
 body {
 	text-align: center;
     height: 100%;
 }
 
+/* background image and size for main*/
 main{
     background-image: url(http://teaguys.local/wp-content/uploads/2020/02/bg-1.png);
     background-size: cover;
@@ -107,7 +108,7 @@ ul.dropdown.menu {
 }
 
 .top-bar {
-    max-width: 100vw;
+	max-width: 100vw;
 }
 
 .top-bar.ul.a {
@@ -126,10 +127,13 @@ ul.dropdown.menu {
 }
 
 #example-menu {
-    background-color: #a11d1d;
-    z-index: 1000;
-    margin-bottom: 0px;
-	height: 100px;
+	<<<<<<<headbackground-color: #a11d1d;
+	z-index: 999;
+	border-bottom: #d0f1c0;
+	=======background-color: #a11d1d;
+	z-index: 1000;
+	margin-bottom: 0px;
+	>>>>>>>8989dfa294195480086031db9874a30635cf5a14height: 100px;
 	-webkit-box-shadow: 0px 0px 8px 0px #d0f1c0;
 	box-shadow: 0px 0px 8px 0px #333;
 }
@@ -377,22 +381,54 @@ footer > div > a {
 	margin: 10px auto;
 }
 
-#post-141 .entry-title{
-    display: none;
+#post-141 .entry-title {
+	display: none;
 }
 
-#post-141 h2{
-    margin: 50px auto;
+#post-141 h2 {
+	margin: 50px auto;
 }
 
-#post-141 select{
-    display: none;
+#post-141 select {
+	display: none;
 }
 
-#post-141 .wc-block-grid__product-image img{
-    height: 300px;
+#post-141 .wc-block-grid__product-image img {
+	height: 300px;
 }
 
+#post-141 .wp-block-cover {
+	position: relative;
+	width: 100vw;
+	margin-left: -135px;
+	z-index: 0;
+}
+
+#primary .grid-container:first-child {
+}
+
+/* Social Media Icons */
+.facebook {
+}
+
+.twitter {
+}
+.social-media {
+	display: flex;
+	justify-content: center;
+}
+.wp-block-cover {
+	width: 100vw;
+	margin-left: -135px;
+	z-index: 0;
+}
+
+.has-background-dim {
+	z-index: 0;
+	background-image: url(http://teaguys.local/wp-content/uploads/2020/02/bg-1.png);
+}
+
+#primary .grid-container:first-child {
 .wp-block-cover{
     background: transparent;
     background-size: contain;
