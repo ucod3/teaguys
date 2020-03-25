@@ -182,21 +182,5 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
-/* Custom Post Type Start */
-function create_posttype() {
-	register_post_type( 'news',
-	// CPT Options
-	array(
-		'labels' => array(
-		'name' => __( 'news' ),
-		'singular_name' => __( 'News' )
-		),
-		'public' => true,
-		'has_archive' => false,
-		'rewrite' => array('slug' => 'news'),
-	)
-	);
-	}
-	// Hooking up our function to theme setup
-add_action( 'init', 'create_posttype' );	  
-/* Custom Post Type End */
+/*Custom Post type start*/
+function cw_post_type_news() {
