@@ -184,3 +184,5 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 /* Custom Post Type Start */
 function create_posttype() {
+	register_post_type( 'news',
+	// CPT Options
