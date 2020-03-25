@@ -207,3 +207,7 @@ $labels = array(
 	'edit_item' => __('Edit news'),
 	'new_item' => __('New news'),
 	'view_item' => __('View news'),
+	'all_items' => __('All news'),
+	'not_found' => __('No news found.'),
+	'search_items' => __('Search news'),
+);
