@@ -198,18 +198,18 @@ function cw_post_type_news() {
 );
 
 $labels = array(
-	'name' => _x('news', 'plural'),
-	'singular_name' => _x('news', 'singular'),
-	'menu_name' => _x('news', 'admin menu'),
-	'name_admin_bar' => _x('news', 'admin bar'),
+	'name' => _x('News', 'plural'),
+	'singular_name' => _x('News', 'singular'),
+	'menu_name' => _x('News', 'admin menu'),
+	'name_admin_bar' => _x('News', 'admin bar'),
 	'add_new' => _x('Add New', 'add new'),
 	'add_new_item' => __('Add New news'),
-	'edit_item' => __('Edit news'),
-	'new_item' => __('New news'),
-	'view_item' => __('View news'),
-	'all_items' => __('All news'),
-	'not_found' => __('No news found.'),
-	'search_items' => __('Search news'),
+	'edit_item' => __('Edit News'),
+	'new_item' => __('New News'),
+	'view_item' => __('View News'),
+	'all_items' => __('All News'),
+	'not_found' => __('No News found.'),
+	'search_items' => __('Search News'),
 );
 
 $args = array(
@@ -217,7 +217,7 @@ $args = array(
 	'labels' => $labels,
 	'public' => true,
 	'query_var' => true,
-	'rewrite' => array('slug' => 'news'),
+	'rewrite' => array('slug' => 'News'),
 	'has_archive' => true,
 	'hierarchical' => false,
 );
@@ -225,3 +225,4 @@ $args = array(
 register_post_type('news', $args);
 }
 add_action('init', 'cw_post_type_news');
+/*Custom Post type end*/
