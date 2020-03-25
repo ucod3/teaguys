@@ -196,3 +196,11 @@ function cw_post_type_news() {
 		'comments', // post comments
 		'post-formats', // post formats
 );
+
+$labels = array(
+	'name' => _x('news', 'plural'),
+	'singular_name' => _x('news', 'singular'),
+	'menu_name' => _x('news', 'admin menu'),
+	'name_admin_bar' => _x('news', 'admin bar'),
+	'add_new' => _x('Add New', 'add new'),
+	
