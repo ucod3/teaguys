@@ -216,4 +216,5 @@ $args = array(
 	'supports' => $supports,
 	'labels' => $labels,
 	'public' => true,
-	
+	'query_var' => true,
+	'rewrite' => array('slug' => 'news'),
