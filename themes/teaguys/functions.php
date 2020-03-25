@@ -218,3 +218,6 @@ $args = array(
 	'public' => true,
 	'query_var' => true,
 	'rewrite' => array('slug' => 'news'),
+	'has_archive' => true,
+	'hierarchical' => false,
+);
