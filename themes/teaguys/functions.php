@@ -190,3 +190,9 @@ function cw_post_type_news() {
 		'editor', // post content
 		'author', // post author
 		'thumbnail', // featured images
+		'excerpt', // post excerpt
+		'custom-fields', // custom fields
+		'revisions', // post revisions
+		'comments', // post comments
+		'post-formats', // post formats
+);
