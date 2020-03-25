@@ -203,4 +203,7 @@ $labels = array(
 	'menu_name' => _x('news', 'admin menu'),
 	'name_admin_bar' => _x('news', 'admin bar'),
 	'add_new' => _x('Add New', 'add new'),
-	
+	'add_new_item' => __('Add New news'),
+	'edit_item' => __('Edit news'),
+	'new_item' => __('New news'),
+	'view_item' => __('View news'),
