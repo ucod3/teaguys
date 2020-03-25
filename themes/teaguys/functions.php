@@ -221,3 +221,7 @@ $args = array(
 	'has_archive' => true,
 	'hierarchical' => false,
 );
+
+register_post_type('news', $args);
+}
+add_action('init', 'cw_post_type_news');
