@@ -211,3 +211,9 @@ $labels = array(
 	'not_found' => __('No news found.'),
 	'search_items' => __('Search news'),
 );
+
+$args = array(
+	'supports' => $supports,
+	'labels' => $labels,
+	'public' => true,
+	
