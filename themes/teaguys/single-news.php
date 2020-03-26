@@ -1,3 +1,4 @@
+<!-- adding the news post type to a single page -->
 <?php
 get_header();
 /* Start the Loop */
