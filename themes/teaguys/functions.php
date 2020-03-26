@@ -227,9 +227,11 @@ register_post_type('news', $args);
 add_action('init', 'cw_post_type_news');
 /*Custom Post type end*/
 
-/* Custom Post Type Start */
+/* Custom Second Post Type Start */
 
-function create_posttype() {
-	register_post_type( 'news',
-	// CPT Options
-	
+function cw_post_type_news() {
+	$supports = array(
+	'title', // post title
+	'editor', // post content
+	'author', // post author
+	'thumbnail', // featured images
