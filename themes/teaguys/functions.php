@@ -256,3 +256,13 @@ $labels = array(
 	'search_items' => __('Search news'),
 	'not_found' => __('No news found.'),
 	);
+
+	$args = array(
+		'supports' => $supports,
+		'labels' => $labels,
+		'public' => true,
+		'query_var' => true,
+		'rewrite' => array('slug' => 'news'),
+		'has_archive' => true,
+		'hierarchical' => false,
+		);
