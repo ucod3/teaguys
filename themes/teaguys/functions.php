@@ -226,3 +226,5 @@ register_post_type('news', $args);
 }
 add_action('init', 'cw_post_type_news');
 /*Custom Post type end*/
+
+/* Custom Post Type Start */
