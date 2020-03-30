@@ -26,7 +26,7 @@
 <?php
 if ( is_front_page() ) :
 	?>
-	<div id="welcomePage">
+	<div class="welcomePage">
 		<h1>Welcome to<img src="http://teaguys.local/wp-content/uploads/2020/03/logo-e1583715434610.png" id="logoImg" /></h1>
 		<h3>Checkout our new blogs, which are all about tea!</h3>
 		<button class="closeButton">Close</button>
@@ -34,7 +34,7 @@ if ( is_front_page() ) :
 	<?php
 else :
 	?>
-	<div id="welcomePage">
+	<div class="welcomePage">
 		<h1>TEA IS ALL YOU NEED!</h1>
 	</div>
 	<?php

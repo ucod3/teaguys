@@ -423,7 +423,7 @@ ul.dropdown.menu {
 }
 
 /* welcome screen */
-#welcomePage{
+.welcomePage{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -440,8 +440,8 @@ ul.dropdown.menu {
 	z-index: 1000;
 }
 
-#welcomePage h1,
-#welcomePage h3{
+.welcomePage h1,
+.welcomePage h3{
 	color: #FFFFFF;
 }
 
