@@ -318,7 +318,7 @@ ul.dropdown.menu {
 	border: 1px solid #a11d1d;
 	margin: 10px auto 30px auto;
 }
-
+/* added hover properties to button */
 #post-7 button:hover {
 	background: #a11d1d;
 	color: #ffffff;
