@@ -23,6 +23,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+<!-- conditional tag for homepage and other pages -->
 <?php
 if ( is_front_page() ) :
 	?>
