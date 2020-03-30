@@ -435,7 +435,24 @@ ul.dropdown.menu {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: rgba(0, 0, 0, 0.95);
+	background: #a11d1d;
+	color: #FFFFFF;
+	z-index: 1000;
+}
+
+.welcomePageOther{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #a11d1df9;
 	color: #FFFFFF;
 	z-index: 1000;
 }
@@ -452,4 +469,9 @@ ul.dropdown.menu {
 	border-radius: 5px;
 	font-size: 16pt;
 	cursor: pointer;
+}
+
+#logoImgLoading {
+	max-height: 100px;
+	background-repeat: no-repeat;
 }

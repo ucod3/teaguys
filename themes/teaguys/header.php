@@ -34,8 +34,8 @@ if ( is_front_page() ) :
 	<?php
 else :
 	?>
-	<div class="welcomePage">
-		<h1>TEA IS ALL YOU NEED!</h1>
+	<div class="welcomePageOther">
+		<img src="http://teaguys.local/wp-content/uploads/2020/03/logo-e1583715434610.png" id="logoImgLoading" />
 	</div>
 	<?php
 endif;
