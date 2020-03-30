@@ -285,7 +285,7 @@ ul.dropdown.menu {
 	font-weight: 0;
 	font-family: 'Nunito', sans-serif;
 }
-
+/* changed color of paragraph tags and font-weight to 100 */
 #post-7 p {
 	color: #222222;
 	font-weight: 100;
