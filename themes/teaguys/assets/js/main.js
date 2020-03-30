@@ -1,5 +1,6 @@
 // scripts to run when the document is ready
 $(document).ready(function(){
+    // welcome animation
     gsap.to(".welcomePage",1,{opacity:1});
 
     $(".closeButton").click(function () {
