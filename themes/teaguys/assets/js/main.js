@@ -1,8 +1,9 @@
 $(document).ready(function(){
-    $(".welcomePage").show();
+    gsap.to(".welcomePage",1,{opacity:1});
 
     $(".closeButton").click(function () {
-        $(".welcomePage").hide();
+        gsap.to(".welcomePage",1,{opacity:0});
+        gsap.to(".welcomePage",1,{display:"none", delay:1});
     });
 
 });

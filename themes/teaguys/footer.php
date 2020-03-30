@@ -43,6 +43,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 </body>
 </html>
