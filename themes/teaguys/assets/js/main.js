@@ -9,6 +9,7 @@ $(document).ready(function(){
         gsap.to(".welcomePage",1,{display:"none", delay:1.5});
     });
 
+    // auto hide after 2.5 seconds
     gsap.to(".welcomePage",1,{opacity:0, delay:2});
     gsap.to(".welcomePage",1,{display:"none", delay:2.5});
     
