@@ -23,6 +23,22 @@
 </head>
 
 <body <?php body_class(); ?>>
+<?php
+if ( is_front_page() ) :
+	?>
+	<div id="welcomePage">
+		<h1>Welcome to TeaGuys!</h1>
+		<h3>Checkout our new blogs, which are all about tea!</h3>
+	</div>
+	<?php
+else :
+	?>
+	<div id="welcomePage">
+		<h1>TEA IS ALL YOU NEED!</h1>
+	</div>
+	<?php
+endif;
+?>
 <div id="page" class="site">
 <!-- logo for the header-->
 	<header id="masthead" class="site-header">
