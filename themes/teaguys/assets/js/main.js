@@ -3,6 +3,7 @@ $(document).ready(function(){
     // welcome animation
     gsap.to(".welcomePage",1,{opacity:1});
 
+    // close button function
     $(".closeButton").click(function () {
         gsap.to(".welcomePage",1,{opacity:0});
         gsap.to(".welcomePage",1,{display:"none", delay:1.5});
