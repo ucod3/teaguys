@@ -298,7 +298,7 @@ ul.dropdown.menu {
 	border-radius: 5px;
 	box-shadow: 0px 0px 3px 0px #999;
 }
-
+/* added red color to required small tag */
 #post-7 small {
 	color: #a11d1d;
 }
