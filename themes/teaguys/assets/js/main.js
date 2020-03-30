@@ -16,6 +16,7 @@ $(document).ready(function(){
     // logo image animation
     gsap.to("#logoImgLoading",0.2,{y:-10, repeat:5, yoyo: true});
 
+    // auto hide welcome for other pages
     gsap.to(".welcomePageOther",1,{opacity:0, delay:1});
     gsap.to(".welcomePageOther",1,{display:"none", delay:1.5});
 
