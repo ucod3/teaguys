@@ -311,7 +311,7 @@ ul.dropdown.menu {
 	border: none;
 	box-shadow: 0px 0px 3px 0px #999;
 }
-
+/* matched the button with the theme color */
 #post-7 button {
 	background: none;
 	color: #a11d1d;
