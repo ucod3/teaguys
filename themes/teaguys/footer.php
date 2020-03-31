@@ -40,7 +40,7 @@
 		</h4>
 		<p>
 		<?php echo get_the_excerpt(); ?>
-		<a href="<?php the_permalink();?>"> </a>
+		<a href="<?php the_permalink();?>">Read More</a>
 		</p>
 
 
