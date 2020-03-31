@@ -32,6 +32,8 @@
 	while ( $latestPosts->have_posts() ) {
 		$latestPosts->the_post();
 		?>
+		<div class="cell small-12 medium-6 large-4">
+	</div>
 	}
 	</div>
 	</div>
