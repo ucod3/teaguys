@@ -77,7 +77,7 @@ endif;
 								) );
 								?>
 							</li>
-							<li><input type="search" placeholder="Search" id="searchBar"></li>
+							
 						</ul>
 					</div>
 
