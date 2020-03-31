@@ -30,6 +30,7 @@
 	</div>
 	<?php
 	while ( $latestPosts->have_posts() ) {
+		$latestPosts->the_post();
 		?>
 	}
 	</div>
