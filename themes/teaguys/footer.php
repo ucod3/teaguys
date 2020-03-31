@@ -40,6 +40,7 @@
 		</h4>
 		<p>
 		<?php echo get_the_excerpt(); ?>
+		<a href=""></a>
 		</p>
 
 
