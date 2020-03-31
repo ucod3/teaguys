@@ -302,6 +302,14 @@ ul.dropdown.menu {
 	justify-content: center;
 }
 
+#footerStyle .button{
+	margin: 20px;
+	border: 2px solid #d0f1c0;
+	background: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
 /* tablet view */
 @media (max-width: 801px) {
 	#footerStyle {
