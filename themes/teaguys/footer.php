@@ -15,6 +15,10 @@
 <!-- footer section start-->
 	<footer id="footerStyle" class="site-footer">
 		<div class="site-info">
+	<?php
+	$args = array();
+	?>
+
 			<?php
 				wp_nav_menu( array(
 					'theme_location' => 'footer-menu',
