@@ -25,7 +25,9 @@
 	<div class="post-list-wrapper">
 	<div class="grid-container post-list">
 	<div class="grid-x">
+	<div class="cell">
 
+	</div>
 	</div>
 	</div>
 	</div>
