@@ -77,7 +77,7 @@ endif;
 								) );
 								?>
 							</li>
-							
+							<!-- removed the input tag for search -->
 						</ul>
 					</div>
 
