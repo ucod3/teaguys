@@ -77,21 +77,13 @@ endif;
 								) );
 								?>
 							</li>
-<<<<<<< HEAD
-<<<<<<< HEAD
-							<!-- removed the input tag for search -->
-=======
 							<li><input type="search" placeholder="Search" id="searchBar"></li>
->>>>>>> parent of 3b704e6... added ivory search plugin
-=======
-							
->>>>>>> parent of b65b321... removed the input tag for the search in menu
 						</ul>
 					</div>
 
 				</div>
-				<img src="http://teaguys.local/wp-content/uploads/2020/03/menu.png" class="hide-for-large" alt="menu" id="hamMenu">
-				<li class="mobileMenu hide-for-large">
+				<img src="http://teaguys.local/wp-content/uploads/2020/03/menu.png" class="hide-for-large hide-for-medium" alt="menu" id="hamMenu">
+				<li class="mobileMenu hide-for-large hide-for-medium">
 					<?php
 					wp_nav_menu( array(
 						'theme_location' => 'header-menu',
@@ -99,6 +91,10 @@ endif;
 					) );
 					?>
 				</li>
+				<img src="http://teaguys.local/wp-content/uploads/2020/03/search.png" alt="search" id="mobileSearchButton">
+				<div class="mobileSearch hide-for-large hide-for-medium">
+					<input type="search" placeholder="Search" id="searchBarMobile">
+				</div>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
