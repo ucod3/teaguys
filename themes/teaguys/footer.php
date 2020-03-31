@@ -15,6 +15,45 @@
 <!-- footer section start-->
 	<footer id="footerStyle" class="site-footer">
 		<div class="site-info">
+	<?php
+	$args = array(
+		'post_type' => 'post',
+		'posts_per_page' => 3,
+	);
+
+	$latestPosts  = new WP_Query ( $args );
+
+	if ( $latestPosts->have_posts() ) {
+	?>
+	<div class="post-list-wrapper">
+	<div class="grid-container post-list">
+	<div class="grid-x">
+	<div class="cell">
+	<h3>Latest Posts:</h3>
+	</div>
+	<?php
+	while ( $latestPosts->have_posts() ) {
+		$latestPosts->the_post();
+		?>
+		<div2 class="cell small-12 medium-6 large-4">
+		<div1 id="post-<?php echo get_the_ID(); ?>">
+		<?php the_post_thumbnail( 'medium' );  ?>
+		<h4>
+		<a class="button "href="<?php the_permalink();?>"><?php echo get_the_title();?></a>
+		</h4>
+		<p>
+		<?php echo get_the_excerpt(); ?>
+		<a href="<?php the_permalink();?>">Read More</a>
+		</p>
+	</div1>
+	</div2>
+	<?php } ?>
+	</div>
+	</div>
+		<?php
+	}
+	wp_reset_postdata();
+		?>
 			<?php
 				wp_nav_menu( array(
 					'theme_location' => 'footer-menu',
