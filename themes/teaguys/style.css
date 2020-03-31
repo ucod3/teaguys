@@ -160,7 +160,11 @@ ul.dropdown.menu {
 		font-size: 10pt;
 	}
 	.top-bar li:last-of-type {
-		margin-left: 20px;
+		margin-left: 0px;
+	}
+
+	.menu{
+		margin-left: 0;
 	}
 }
 
@@ -474,4 +478,17 @@ ul.dropdown.menu {
 #logoImgLoading {
 	max-height: 100px;
 	background-repeat: no-repeat;
+}
+
+/* tablet view */
+@media (max-width:801px){
+	.quantity{
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+
+/* mobile view */
+@media only screen and (max-width: 600px) {
+	
 }
