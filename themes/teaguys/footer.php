@@ -36,7 +36,8 @@
 		<div id="post-<?php echo get_the_ID(); ?>">
 		<?php the_post_thumbnail( 'medium' );  ?>
 		<h4>
-		<?php echo get_the_title();?>
+		<a class="button "href="<?php the_permalink();?>"><?php echo get_the_title();?></a>
+
 		</h4>
 
 
