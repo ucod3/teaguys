@@ -277,7 +277,7 @@ ul.dropdown.menu {
 	justify-content: center;
 	background-color: #a11d1d;
 	color: #d0f1c0;
-	height: 484px;
+	height: 500px;
 	text-align: center;
 }
 
@@ -288,8 +288,9 @@ ul.dropdown.menu {
 }
 
 .latest-posts {
-	margin-top: -4px;
-	padding: 0 10px 10px 10px;
+	position: relative;
+	top: 50px;
+	margin-bottom: 50px;
 }
 
 #footerStyle .twitter {
