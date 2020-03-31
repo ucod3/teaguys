@@ -550,7 +550,16 @@ ul.dropdown.menu {
 	}
 }
 
+/* products */
+
 /* mobile view */
 @media only screen and (max-width: 600px) {
-	
+	#post-78 .entry-content{
+		display: flex;
+		margin-left: 0;
+	}
+
+	#post-78 .entry-content img{
+		height: 100px;
+	}
 }
