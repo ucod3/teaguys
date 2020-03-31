@@ -480,6 +480,10 @@ ul.dropdown.menu {
 	background-repeat: no-repeat;
 }
 
+#add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button{
+	font-size: 1rem;
+}
+
 /* tablet view */
 @media (max-width:801px){
 	.woocommerce a.remove{
