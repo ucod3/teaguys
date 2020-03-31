@@ -37,8 +37,8 @@
 		<?php the_post_thumbnail( 'medium' );  ?>
 		<h4>
 		<a class="button "href="<?php the_permalink();?>"><?php echo get_the_title();?></a>
-
 		</h4>
+		<p></p>
 
 
 
