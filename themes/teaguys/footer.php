@@ -21,7 +21,7 @@
 		'posts_per_page' => 3,
 	);
 
-	$latestPosts;
+	$latestPosts  = new WP_Query ( $args );
 
 	if ( $latestPosts->have_posts() ) {
 	?>
