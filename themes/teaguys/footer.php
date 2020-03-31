@@ -20,8 +20,11 @@
 		'post_type' => 'post',
 		'posts_per_page' => 3,
 	);
+	if ( $latestPosts->have_posts() ) {
 	?>
-
+		<?php
+	{
+		?>
 			<?php
 				wp_nav_menu( array(
 					'theme_location' => 'footer-menu',
