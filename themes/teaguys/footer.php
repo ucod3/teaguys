@@ -16,7 +16,9 @@
 	<footer id="footerStyle" class="site-footer">
 		<div class="site-info">
 	<?php
-	$args = array();
+	$args = array(
+		'post_type' => 'post'
+	);
 	?>
 
 			<?php
