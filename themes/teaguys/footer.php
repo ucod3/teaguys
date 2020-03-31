@@ -22,6 +22,8 @@
 	);
 	if ( $latestPosts->have_posts() ) {
 	?>
+	<div class="post-list-wrapper">
+	</div>
 		<?php
 	{
 		?>
