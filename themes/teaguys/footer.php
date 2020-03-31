@@ -28,9 +28,9 @@
 	<div class="post-list-wrapper">
 	<div class="grid-container post-list">
 	<div class="grid-x">
-	<div class="cell">
+	<!-- <div class="cell">
 	<h3>Latest Posts:</h3>
-	</div>
+	</div> -->
 	<?php
 	while ( $latestPosts->have_posts() ) {
 		$latestPosts->the_post();
