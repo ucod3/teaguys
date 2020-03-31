@@ -82,6 +82,7 @@ endif;
 					</div>
 
 				</div>
+				<img src="http://teaguys.local/wp-content/uploads/2020/03/search.png" alt="search" class="hide-for-large hide-for-medium" id="mobileSearchButton">
 				<img src="http://teaguys.local/wp-content/uploads/2020/03/menu.png" class="hide-for-large hide-for-medium" alt="menu" id="hamMenu">
 				<li class="mobileMenu hide-for-large hide-for-medium">
 					<?php
@@ -91,7 +92,6 @@ endif;
 					) );
 					?>
 				</li>
-				<img src="http://teaguys.local/wp-content/uploads/2020/03/search.png" alt="search" id="mobileSearchButton">
 				<div class="mobileSearch hide-for-large hide-for-medium">
 					<input type="search" placeholder="Search" id="searchBarMobile">
 				</div>

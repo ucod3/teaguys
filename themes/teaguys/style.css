@@ -193,24 +193,19 @@ ul.dropdown.menu {
 	}
 
 	#primary-menu a {
-		font-size: 6pt;
+		font-size: 10pt;
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: center;
 		align-items: center;
+		padding-left: 10px;
+		padding-right: 1px;
+		padding-top: 10px;
+		text-align: center;
 	}
 
 	.menu{
 		height: 50px;
 		display: flex;
-	}
-
-	.mobileMenu{
-		background: #999;
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 40px;
 	}
 
 	.menu >li{
@@ -224,14 +219,14 @@ ul.dropdown.menu {
 
 	#hamMenu{
 		position: absolute;
-		top: 70px;
+		margin-top: -50px;
 		right: 20px;
 		height: 25px;
 	}
 
 	#mobileSearchButton{
 		position: absolute;
-		top: 70px;
+		margin-top: -50px;
 		left: 20px;
 		height: 25px;
 	}
@@ -240,11 +235,26 @@ ul.dropdown.menu {
 		background: #FFFFFF;
 	}
 
+	.mobileMenu{
+		background: none;
+		color: #a11d1d;
+		border: none;
+		width: 100%;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 40px;
+	}
+
+
 	#searchBarMobile {
-		margin-bottom: 10px;
 		width: 100vw;
-		border: 1px solid #a11d1d;
-		border-radius: 5px;
+		border: 5px solid #a11d1d;
+		border-top: none;
+	}
+
+	.mobileMenu .menu a{
+		color: #FFFFFF;
 	}
 }
 
