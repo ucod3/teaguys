@@ -49,6 +49,7 @@
 	</div>
 		<?php
 	}
+	wp_reset_postdata();
 		?>
 			<?php
 				wp_nav_menu( array(
