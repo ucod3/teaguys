@@ -281,22 +281,10 @@ ul.dropdown.menu {
 	text-align: center;
 }
 
-#footerStyle .facebook {
-	display: flex;
-	position: absolute;
-	right: 50px;
-}
-
 .latest-posts {
 	position: relative;
 	top: 50px;
 	margin-bottom: 50px;
-}
-
-#footerStyle .twitter {
-	display: flex;
-	position: absolute;
-	right: 100px;
 }
 .latest-posts {
 	margin-top: -4px;
@@ -322,7 +310,7 @@ ul.dropdown.menu {
 		justify-content: center;
 		background-color: #a11d1d;
 		color: #d0f1c0;
-		height: 150px;
+		height: auto;
 		text-align: center;
 	}
 }
@@ -481,8 +469,9 @@ ul.dropdown.menu {
 /* Social Media Icons */
 
 .social-media {
-	display: flex;
-	justify-content: center;
+	display: inline-block;
+	text-align: center;
+	position: relative;
 }
 
 .has-background-dim {
@@ -589,5 +578,15 @@ ul.dropdown.menu {
 
 	#post-78 .entry-content img {
 		height: 100px;
+	}
+
+	#footerStyle {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #a11d1d;
+		color: #d0f1c0;
+		height: auto;
+		text-align: center;
 	}
 }
