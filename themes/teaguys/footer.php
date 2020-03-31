@@ -26,7 +26,7 @@
 	if ( $latestPosts->have_posts() ) {
 	?>
 	<div class="post-list-wrapper">
-	<div class="grid-container post-list">
+	<div class="grid-container post-list  ">
 	<div class="grid-x">
 	<!-- <div class="cell">
 	<h3>Latest Posts:</h3>

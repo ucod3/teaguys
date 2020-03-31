@@ -256,7 +256,7 @@ ul.dropdown.menu {
 	justify-content: center;
 	background-color: #a11d1d;
 	color: #d0f1c0;
-	height: 150px;
+	height: 484px;
 	text-align: center;
 }
 
@@ -266,8 +266,9 @@ ul.dropdown.menu {
 	right: 50px;
 }
 
-#latest-posts {
-	padding: 10px;
+.latest-posts {
+	margin-top: -4px;
+	padding: 0 10px 10px 10px;
 }
 
 #footerStyle .twitter {
