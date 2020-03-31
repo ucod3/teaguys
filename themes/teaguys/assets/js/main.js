@@ -21,3 +21,4 @@ $(document).ready(function(){
     gsap.to(".welcomePageOther",1,{display:"none", delay:1.5});
 
 });
+

@@ -68,7 +68,7 @@ endif;
 					</div>
 
 					<div class="top-bar-right">
-						<ul class="menu">
+						<ul class="menu hide-for-small-only">
 							<li>
 								<?php
 								wp_nav_menu( array(
@@ -82,6 +82,16 @@ endif;
 					</div>
 
 				</div>
+				<ul class="mobileMenu hide-for-large">
+					<li>
+						<?php
+						wp_nav_menu( array(
+							'theme_location' => 'header-menu',
+							'menu_id'        => 'primary-menu',
+						) );
+						?>
+					</li>
+				</ul>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 

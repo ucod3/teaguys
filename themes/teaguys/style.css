@@ -177,11 +177,6 @@ ul.dropdown.menu {
 		padding: 0;
 	}
 
-	.top-bar a {
-		background-color: none;
-		font-size: 8pt;
-	}
-
 	.top-bar li {
 		display: block;
 		margin: auto auto 5px auto;
@@ -193,8 +188,39 @@ ul.dropdown.menu {
 	}
 
 	#example-menu {
-		height: 160px;
+		height: 75px;
 		margin: 0;
+	}
+
+	#primary-menu a {
+		font-size: 6pt;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.menu{
+		height: 50px;
+		display: flex;
+	}
+
+	.mobileMenu{
+		background: #999;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50px;
+	}
+
+	.menu >li{
+		background: none;
+	}
+
+	.menu a{
+		background: none;
+		padding: 0 auto;
+		margin: 0 auto;
 	}
 
 	#searchBar {
@@ -246,14 +272,6 @@ ul.dropdown.menu {
 		text-align: center;
 	}
 }
-
-/* mobile view */
-@media only screen and (max-width: 600px) {
-	#primary-menu a {
-		font-size: 10pt;
-	}
-}
-
 /* ------------------------ blogs page ------------------------*/
 
 /* figure caption settings */
