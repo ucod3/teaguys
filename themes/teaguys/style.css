@@ -482,6 +482,12 @@ ul.dropdown.menu {
 
 /* tablet view */
 @media (max-width:801px){
+	.woocommerce a.remove{
+		display: inline;
+		margin-right: 20px;
+		padding: 5px;
+	}
+
 	.quantity{
 		display: flex;
 		justify-content: flex-end;
