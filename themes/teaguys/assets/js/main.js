@@ -20,5 +20,8 @@ $(document).ready(function(){
     gsap.to(".welcomePageOther",1,{opacity:0, delay:1});
     gsap.to(".welcomePageOther",1,{display:"none", delay:1.5});
 
-});
+    $("#hamMenu").click(function () {
+        $(".mobileMenu").slideToggle();
+    });
 
+});

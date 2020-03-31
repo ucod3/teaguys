@@ -82,16 +82,15 @@ endif;
 					</div>
 
 				</div>
-				<ul class="mobileMenu hide-for-large">
-					<li>
-						<?php
-						wp_nav_menu( array(
-							'theme_location' => 'header-menu',
-							'menu_id'        => 'primary-menu',
-						) );
-						?>
-					</li>
-				</ul>
+				<img src="http://teaguys.local/wp-content/uploads/2020/03/menu.png" class="hide-for-large" alt="menu" id="hamMenu">
+				<li class="mobileMenu hide-for-large">
+					<?php
+					wp_nav_menu( array(
+						'theme_location' => 'header-menu',
+						'menu_id'        => 'primary-menu',
+					) );
+					?>
+				</li>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
