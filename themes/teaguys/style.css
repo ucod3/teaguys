@@ -210,7 +210,7 @@ ul.dropdown.menu {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		height: 50px;
+		height: 40px;
 	}
 
 	.menu >li{
@@ -219,13 +219,19 @@ ul.dropdown.menu {
 
 	.menu a{
 		background: none;
-		padding: 0 auto;
-		margin: 0 auto;
+		margin-top: 10px;
 	}
 
 	#searchBar {
 		margin-bottom: 10px;
 		width: 100;
+	}
+
+	#hamMenu{
+		position: absolute;
+		top: 70px;
+		right: 20px;
+		height: 25px;
 	}
 }
 
