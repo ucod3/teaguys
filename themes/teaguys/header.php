@@ -78,10 +78,14 @@ endif;
 								?>
 							</li>
 <<<<<<< HEAD
+<<<<<<< HEAD
 							<!-- removed the input tag for search -->
 =======
 							<li><input type="search" placeholder="Search" id="searchBar"></li>
 >>>>>>> parent of 3b704e6... added ivory search plugin
+=======
+							
+>>>>>>> parent of b65b321... removed the input tag for the search in menu
 						</ul>
 					</div>
 
