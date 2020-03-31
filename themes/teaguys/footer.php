@@ -20,6 +20,9 @@
 		'post_type' => 'post',
 		'posts_per_page' => 3,
 	);
+
+	$latestPosts;
+
 	if ( $latestPosts->have_posts() ) {
 	?>
 	<div class="post-list-wrapper">
