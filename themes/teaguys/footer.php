@@ -35,7 +35,9 @@
 		<div class="cell small-12 medium-6 large-4">
 		<div id="post-<?php echo get_the_ID(); ?>">
 		<?php the_post_thumbnail( 'medium' );  ?>
-		<h4></h4>
+		<h4>
+		<?php echo get_the_title();?>
+		</h4>
 
 
 
