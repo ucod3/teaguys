@@ -26,7 +26,7 @@
 	<div class="grid-container post-list">
 	<div class="grid-x">
 	<div class="cell">
-
+	<h3></h3>
 	</div>
 	</div>
 	</div>
