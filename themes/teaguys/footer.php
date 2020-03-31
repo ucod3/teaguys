@@ -35,8 +35,8 @@
 	while ( $latestPosts->have_posts() ) {
 		$latestPosts->the_post();
 		?>
-		<div2 class="cell small-12 medium-6 large-4">
-		<div1 id="post-<?php echo get_the_ID(); ?>">
+		<div class="cell small-12 medium-6 large-4 latest-posts">
+		<div id="post-<?php echo get_the_ID(); ?>">
 		<?php the_post_thumbnail( 'medium' );  ?>
 		<h4>
 		<a class="button "href="<?php the_permalink();?>"><?php echo get_the_title();?></a>
@@ -45,8 +45,8 @@
 		<?php echo get_the_excerpt(); ?>
 		<a href="<?php the_permalink();?>">Read More</a>
 		</p>
-	</div1>
-	</div2>
+	</div>
+	</div>
 	<?php } ?>
 	</div>
 	</div>
