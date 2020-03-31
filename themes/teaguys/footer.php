@@ -28,6 +28,10 @@
 	<div class="cell">
 	<h3>Latest Posts:</h3>
 	</div>
+	<?php
+	while ( $latestPosts->have_posts() ) {
+		?>
+	}
 	</div>
 	</div>
 	</div>
