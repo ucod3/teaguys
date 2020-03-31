@@ -277,7 +277,7 @@ ul.dropdown.menu {
 	justify-content: center;
 	background-color: #a11d1d;
 	color: #d0f1c0;
-	height: 500px;
+	height: auto;
 	text-align: center;
 }
 
@@ -308,6 +308,10 @@ ul.dropdown.menu {
 	margin: auto auto;
 	font-weight: bolder;
 	letter-spacing: 2px;
+}
+
+.menu-footer-menu-container .menu{
+	justify-content: center;
 }
 
 /* tablet view */
