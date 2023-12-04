@@ -127,13 +127,13 @@ ul.dropdown.menu {
 }
 
 #example-menu {
-    background-color: #a11d1d;
+	background-color: #a11d1d;
 	z-index: 999;
 	border-bottom: #d0f1c0;
-    background-color: #a11d1d;
+	background-color: #a11d1d;
 	z-index: 1000;
 	margin-bottom: 0px;
-    height: 100px;
+	height: 100px;
 	-webkit-box-shadow: 0px 0px 8px 0px #d0f1c0;
 	box-shadow: 0px 0px 8px 0px #333;
 }
@@ -143,7 +143,7 @@ ul.dropdown.menu {
 }
 
 /* tablet view */
-@media (max-width: 801px) {
+@media (max-width: 834px) {
 	#example-menu {
 		background-color: #a11d1d;
 		height: 75px;
@@ -160,7 +160,11 @@ ul.dropdown.menu {
 		font-size: 10pt;
 	}
 	.top-bar li:last-of-type {
-		margin-left: 20px;
+		margin-left: 0px;
+	}
+
+	.menu {
+		margin-left: 0;
 	}
 }
 
@@ -171,11 +175,7 @@ ul.dropdown.menu {
 		display: flex;
 		justify-self: center;
 		padding: 0;
-	}
-
-	.top-bar a {
-		background-color: none;
-		font-size: 8pt;
+		margin-top: 3px;
 	}
 
 	.top-bar li {
@@ -189,13 +189,83 @@ ul.dropdown.menu {
 	}
 
 	#example-menu {
-		height: 160px;
+		height: 75px;
 		margin: 0;
 	}
 
-	#searchBar {
-		margin-bottom: 10px;
-		width: 100;
+	#primary-menu a {
+		font-size: 10pt;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-left: 10px;
+		padding-right: 1px;
+		padding-top: 10px;
+		text-align: center;
+	}
+
+	.menu {
+		height: 50px;
+		display: flex;
+	}
+
+	.menu > li {
+		background: none;
+	}
+
+	.menu a {
+		background: none;
+		margin-top: 10px;
+	}
+
+	#hamMenu {
+		position: absolute;
+		margin-top: -50px;
+		right: 20px;
+		height: 25px;
+	}
+
+	#mobileSearchButton {
+		position: absolute;
+		margin-top: -50px;
+		left: 20px;
+		height: 25px;
+	}
+
+	.mobileSearch {
+		background: #ffffff;
+	}
+
+	.mobileMenu {
+		background: none;
+		color: #a11d1d;
+		border: none;
+		width: 100%;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 40px;
+	}
+
+	.mobileMenu {
+		background: none;
+		color: #a11d1d;
+		border: none;
+		width: 100%;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 40px;
+	}
+
+	#searchBarMobile {
+		width: 100vw;
+		border: 5px solid #a11d1d;
+		border-top: none;
+	}
+
+	.mobileMenu .menu a {
+		color: #ffffff;
 	}
 }
 
@@ -207,20 +277,18 @@ ul.dropdown.menu {
 	justify-content: center;
 	background-color: #a11d1d;
 	color: #d0f1c0;
-	height: 150px;
+	height: auto;
 	text-align: center;
 }
 
-#footerStyle .facebook{
-    display: flex;
-    position: absolute;
-    right: 50px;
+.latest-posts {
+	position: relative;
+	top: 50px;
+	margin-bottom: 50px;
 }
-
-#footerStyle .twitter{
-    display: flex;
-    position: absolute;
-    right: 100px;
+.latest-posts {
+	margin-top: -4px;
+	padding: 0 10px 10px 10px;
 }
 
 #primary-menu > ul {
@@ -228,6 +296,18 @@ ul.dropdown.menu {
 	margin: auto auto;
 	font-weight: bolder;
 	letter-spacing: 2px;
+}
+
+.menu-footer-menu-container .menu{
+	justify-content: center;
+}
+
+#footerStyle .button{
+	margin: 20px;
+	border: 2px solid #d0f1c0;
+	background: none;
+	border-radius: 10px;
+	cursor: pointer;
 }
 
 /* tablet view */
@@ -238,18 +318,10 @@ ul.dropdown.menu {
 		justify-content: center;
 		background-color: #a11d1d;
 		color: #d0f1c0;
-		height: 150px;
+		height: auto;
 		text-align: center;
 	}
 }
-
-/* mobile view */
-@media only screen and (max-width: 600px) {
-	#primary-menu a {
-		font-size: 10pt;
-	}
-}
-
 /* ------------------------ blogs page ------------------------*/
 
 /* figure caption settings */
@@ -273,23 +345,24 @@ ul.dropdown.menu {
 
 /* ------------------------ contact page ------------------------*/
 
+/* manual targeting contact page */
 #post-7 {
 	text-align: left;
 	font-weight: 800;
 	font-family: 'Nunito', sans-serif;
 }
-
+/* change the h4 color and font-weight */
 #post-7 h4 {
 	color: #000;
 	font-weight: 0;
 	font-family: 'Nunito', sans-serif;
 }
-
+/* changed color of paragraph tags and font-weight to 100 */
 #post-7 p {
 	color: #222222;
 	font-weight: 100;
 }
-
+/* custom background color to make it look like a callout */
 #post-7 .wp-block-group__inner-container {
 	background: #eeeeee;
 	padding: 50px;
@@ -297,11 +370,11 @@ ul.dropdown.menu {
 	border-radius: 5px;
 	box-shadow: 0px 0px 3px 0px #999;
 }
-
+/* added red color to required small tag */
 #post-7 small {
 	color: #a11d1d;
 }
-
+/* custom input types */
 #post-7 input[type='text'],
 #post-7 input[type='email'],
 #post-7 textarea,
@@ -310,14 +383,14 @@ ul.dropdown.menu {
 	border: none;
 	box-shadow: 0px 0px 3px 0px #999;
 }
-
+/* matched the button with the theme color */
 #post-7 button {
 	background: none;
 	color: #a11d1d;
 	border: 1px solid #a11d1d;
 	margin: 10px auto 30px auto;
 }
-
+/* added hover properties to button */
 #post-7 button:hover {
 	background: #a11d1d;
 	color: #ffffff;
@@ -335,11 +408,6 @@ ul.dropdown.menu {
 }
 
 /* wooCommerce */
-#post-78 {
-}
-
-#post-78 .products {
-}
 
 .woocommerce-LoopProduct-link img {
 	text-align: center;
@@ -406,19 +474,12 @@ ul.dropdown.menu {
 	height: 300px;
 }
 
-
-#primary .grid-container:first-child {
-}
-
 /* Social Media Icons */
-.facebook {
-}
 
-.twitter {
-}
 .social-media {
-	display: flex;
-	justify-content: center;
+	display: inline-block;
+	text-align: center;
+	position: relative;
 }
 
 .has-background-dim {
@@ -426,13 +487,114 @@ ul.dropdown.menu {
 	background-image: url(http://teaguys.local/wp-content/uploads/2020/02/bg-1.png);
 }
 
-.wp-block-cover{
-    background: transparent;
-    background-size: contain;
-    display: flex;
-    justify-content: center;
-    padding: 0;
+.wp-block-cover {
+	background: transparent;
+	background-size: contain;
+	display: flex;
+	justify-content: center;
+	padding: 0;
 }
 
-.has-background-dim {
+/* welcome screen */
+.welcomePage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #a11d1d;
+	color: #ffffff;
+	z-index: 1000;
+}
+
+.welcomePageOther {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #a11d1df9;
+	color: #ffffff;
+	z-index: 1000;
+}
+
+.welcomePage h1,
+.welcomePage h3 {
+	color: #ffffff;
+}
+
+.closeButton {
+	padding: 10px;
+	background: #ffffff;
+	margin-top: 20px;
+	border-radius: 5px;
+	font-size: 16pt;
+	cursor: pointer;
+}
+
+#logoImgLoading {
+	max-height: 100px;
+	background-repeat: no-repeat;
+}
+
+#add_payment_method .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
+	font-size: 1rem;
+}
+
+/* tablet view */
+@media (max-width: 801px) {
+	.woocommerce a.remove {
+		display: inline;
+		margin-right: 20px;
+		padding: 5px;
+	}
+
+	.quantity {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	#add_payment_method .wc-proceed-to-checkout a.checkout-button,
+	.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+	.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
+		font-size: 1rem;
+	}
+}
+
+/* products */
+
+/* mobile view */
+@media only screen and (max-width: 600px) {
+	#post-78 .entry-content {
+		display: flex;
+		margin-left: 0;
+	}
+
+	#post-78 .entry-content img {
+		height: 100px;
+	}
+
+	#footerStyle {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #a11d1d;
+		color: #d0f1c0;
+		height: auto;
+		text-align: center;
+	}
 }

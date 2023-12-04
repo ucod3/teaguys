@@ -140,6 +140,10 @@ function tea_guys_scripts() {
 
 	wp_enqueue_script( 'tea_guys-foundation', get_template_directory_uri() . '/assets/js/vendor/foundation.min.js', array('jquery', 'tea_guys-what-input'), '6.5.1', true);
 
+	wp_enqueue_script( 'tea_guyes-custom_jquery', get_template_directory_uri() . '/assets/js/jquery-3.4.1.min.js', array('jquery'), true);
+
+	wp_enqueue_script( 'tea_guyes-custom_script', get_template_directory_uri() . '/assets/js/main.js', array('jquery'), true);
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
@@ -181,4 +185,49 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+/* Custom Post type start */
+function cw_post_type_news() {
+
+	$supports = array(
+		'title', // post title
+		'editor', // post content
+		'author', // post author
+		'thumbnail', // featured images
+		'excerpt', // post excerpt
+		'custom-fields', // custom fields
+		'revisions', // post revisions
+		'comments', // post comments
+		'post-formats', // post formats
+);
+
+$labels = array(
+	'name' => _x('News', 'plural'),
+	'singular_name' => _x('News', 'singular'),
+	'menu_name' => _x('News', 'admin menu'),
+	'name_admin_bar' => _x('News', 'admin bar'),
+	'add_new' => _x('Add New', 'add new'),
+	'add_new_item' => __('Add New news'),
+	'edit_item' => __('Edit News'),
+	'new_item' => __('New News'),
+	'view_item' => __('View News'),
+	'all_items' => __('All News'),
+	'not_found' => __('No News found.'),
+	'search_items' => __('Search News'),
+);
+
+$args = array(
+	'supports' => $supports,
+	'labels' => $labels,
+	'public' => true,
+	'query_var' => true,
+	'rewrite' => array('slug' => 'News'),
+	'has_archive' => true,
+	'hierarchical' => false,
+);
+
+register_post_type('news', $args);
+}
+add_action('init', 'cw_post_type_news');
+/*Custom Post type end*/
 

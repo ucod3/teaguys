@@ -23,6 +23,24 @@
 </head>
 
 <body <?php body_class(); ?>>
+<!-- conditional tag for homepage and other pages -->
+<?php
+if ( is_front_page() ) :
+	?>
+	<div class="welcomePage">
+		<h1>Welcome to<img src="http://teaguys.local/wp-content/uploads/2020/03/logo-e1583715434610.png" id="logoImg" /></h1>
+		<h3>Checkout our new blogs, which are all about tea!</h3>
+		<button class="closeButton">Close</button>
+	</div>
+	<?php
+else :
+	?>
+	<div class="welcomePageOther">
+		<img src="http://teaguys.local/wp-content/uploads/2020/03/logo-e1583715434610.png" id="logoImgLoading" />
+	</div>
+	<?php
+endif;
+?>
 <div id="page" class="site">
 <!-- logo for the header-->
 	<header id="masthead" class="site-header">
@@ -50,7 +68,7 @@
 					</div>
 
 					<div class="top-bar-right">
-						<ul class="menu">
+						<ul class="menu hide-for-small-only">
 							<li>
 								<?php
 								wp_nav_menu( array(
@@ -63,6 +81,19 @@
 						</ul>
 					</div>
 
+				</div>
+				<img src="http://teaguys.local/wp-content/uploads/2020/03/search.png" alt="search" class="hide-for-large hide-for-medium" id="mobileSearchButton">
+				<img src="http://teaguys.local/wp-content/uploads/2020/03/menu.png" class="hide-for-large hide-for-medium" alt="menu" id="hamMenu">
+				<li class="mobileMenu hide-for-large hide-for-medium">
+					<?php
+					wp_nav_menu( array(
+						'theme_location' => 'header-menu',
+						'menu_id'        => 'primary-menu',
+					) );
+					?>
+				</li>
+				<div class="mobileSearch hide-for-large hide-for-medium">
+					<input type="search" placeholder="Search" id="searchBarMobile">
 				</div>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
